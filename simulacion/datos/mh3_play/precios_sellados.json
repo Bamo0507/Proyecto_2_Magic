@@ -1,0 +1,18 @@
+{
+ "fecha_consulta": "2026-11-04",
+ "fuente": "TCGplayer Market Price, consultado a mano en la página de cada producto",
+ "productos": {
+  "sobre": {
+   "nombre": "Modern Horizons 3 - Play Booster Pack",
+   "precio": 11.03,
+   "cantidad_sobres": 1,
+   "url": "https://www.tcgplayer.com/product/541163/magic-modern-horizons-3-modern-horizons-3-play-booster-pack"
+  },
+  "caja": {
+   "nombre": "Modern Horizons 3 - Play Booster Display",
+   "precio": 311.80,
+   "cantidad_sobres": 36,
+   "url": "https://www.tcgplayer.com/product/541164/magic-modern-horizons-3-modern-horizons-3-play-booster-display"
+  }
+ }
+}

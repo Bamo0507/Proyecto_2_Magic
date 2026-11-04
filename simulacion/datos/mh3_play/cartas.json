@@ -1,0 +1,3310 @@
+{
+ "fecha_consulta": "2026-11-04",
+ "fuente": "Scryfall (precio USD = TCGplayer Market Price)",
+ "cartas": {
+  "m3c:1": {
+   "nombre": "Disa the Restless",
+   "rareza": "mythic",
+   "precio_normal": 0.21,
+   "precio_foil": 0.23,
+   "tcgplayer_id": 552432
+  },
+  "m3c:10": {
+   "nombre": "Cayth, Famed Mechanist",
+   "rareza": "mythic",
+   "precio_normal": 0.61,
+   "precio_foil": 0.66,
+   "tcgplayer_id": 552448
+  },
+  "m3c:11": {
+   "nombre": "Coram, the Undertaker",
+   "rareza": "mythic",
+   "precio_normal": 0.38,
+   "precio_foil": 0.67,
+   "tcgplayer_id": 552436
+  },
+  "m3c:12": {
+   "nombre": "Disa the Restless",
+   "rareza": "mythic",
+   "precio_normal": 0.39,
+   "precio_foil": 0.57,
+   "tcgplayer_id": 552438
+  },
+  "m3c:13": {
+   "nombre": "Jyoti, Moag Ancient",
+   "rareza": "mythic",
+   "precio_normal": 0.37,
+   "precio_foil": 0.48,
+   "tcgplayer_id": 552437
+  },
+  "m3c:14": {
+   "nombre": "Omo, Queen of Vesuva",
+   "rareza": "mythic",
+   "precio_normal": 0.94,
+   "precio_foil": 1.69,
+   "tcgplayer_id": 552447
+  },
+  "m3c:15": {
+   "nombre": "Satya, Aetherflux Genius",
+   "rareza": "mythic",
+   "precio_normal": 0.37,
+   "precio_foil": 0.47,
+   "tcgplayer_id": 552446
+  },
+  "m3c:16": {
+   "nombre": "Ulalek, Fused Atrocity",
+   "rareza": "mythic",
+   "precio_normal": 2.44,
+   "precio_foil": 4.29,
+   "tcgplayer_id": 552443
+  },
+  "m3c:2": {
+   "nombre": "Omo, Queen of Vesuva",
+   "rareza": "mythic",
+   "precio_normal": 0.35,
+   "precio_foil": 0.29,
+   "tcgplayer_id": 552431
+  },
+  "m3c:3": {
+   "nombre": "Satya, Aetherflux Genius",
+   "rareza": "mythic",
+   "precio_normal": 0.32,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 552427
+  },
+  "m3c:4": {
+   "nombre": "Ulalek, Fused Atrocity",
+   "rareza": "mythic",
+   "precio_normal": 0.62,
+   "precio_foil": 0.65,
+   "tcgplayer_id": 552426
+  },
+  "m3c:5": {
+   "nombre": "Azlask, the Swelling Scourge",
+   "rareza": "mythic",
+   "precio_normal": 0.34,
+   "precio_foil": 0.68,
+   "tcgplayer_id": 552435
+  },
+  "m3c:6": {
+   "nombre": "Cayth, Famed Mechanist",
+   "rareza": "mythic",
+   "precio_normal": 0.36,
+   "precio_foil": 0.43,
+   "tcgplayer_id": 552430
+  },
+  "m3c:7": {
+   "nombre": "Coram, the Undertaker",
+   "rareza": "mythic",
+   "precio_normal": 0.29,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 552428
+  },
+  "m3c:8": {
+   "nombre": "Jyoti, Moag Ancient",
+   "rareza": "mythic",
+   "precio_normal": 0.27,
+   "precio_foil": 0.26,
+   "tcgplayer_id": 552429
+  },
+  "m3c:9": {
+   "nombre": "Azlask, the Swelling Scourge",
+   "rareza": "mythic",
+   "precio_normal": 1.21,
+   "precio_foil": 2.29,
+   "tcgplayer_id": 552445
+  },
+  "mh3:1": {
+   "nombre": "Breaker of Creation",
+   "rareza": "uncommon",
+   "precio_normal": 0.32,
+   "precio_foil": 0.35,
+   "tcgplayer_id": 550846
+  },
+  "mh3:10": {
+   "nombre": "Kozilek, the Broken Reality",
+   "rareza": "mythic",
+   "precio_normal": 5.38,
+   "precio_foil": 5.24,
+   "tcgplayer_id": 552314
+  },
+  "mh3:100": {
+   "nombre": "Marionette Apprentice",
+   "rareza": "uncommon",
+   "precio_normal": 2.5,
+   "precio_foil": 2.48,
+   "tcgplayer_id": 552635
+  },
+  "mh3:101": {
+   "nombre": "Mindless Conscription",
+   "rareza": "uncommon",
+   "precio_normal": 0.2,
+   "precio_foil": 0.33,
+   "tcgplayer_id": 552806
+  },
+  "mh3:102": {
+   "nombre": "Necrodominance",
+   "rareza": "mythic",
+   "precio_normal": 2.57,
+   "precio_foil": 4.84,
+   "tcgplayer_id": 552829
+  },
+  "mh3:103": {
+   "nombre": "Nethergoyf",
+   "rareza": "mythic",
+   "precio_normal": 9.81,
+   "precio_foil": 8.99,
+   "tcgplayer_id": 548576
+  },
+  "mh3:104": {
+   "nombre": "Quest for the Necropolis",
+   "rareza": "uncommon",
+   "precio_normal": 0.26,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 552808
+  },
+  "mh3:105": {
+   "nombre": "Refurbished Familiar",
+   "rareza": "common",
+   "precio_normal": 0.33,
+   "precio_foil": 0.62,
+   "tcgplayer_id": 553237
+  },
+  "mh3:106": {
+   "nombre": "Retrofitted Transmogrant",
+   "rareza": "common",
+   "precio_normal": 0.14,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 553242
+  },
+  "mh3:107": {
+   "nombre": "Ripples of Undeath",
+   "rareza": "rare",
+   "precio_normal": 9.07,
+   "precio_foil": 9.45,
+   "tcgplayer_id": 552866
+  },
+  "mh3:108": {
+   "nombre": "Scurrilous Sentry",
+   "rareza": "common",
+   "precio_normal": 0.12,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 552283
+  },
+  "mh3:109": {
+   "nombre": "Shilgengar, Sire of Famine",
+   "rareza": "rare",
+   "precio_normal": 0.33,
+   "precio_foil": 0.41,
+   "tcgplayer_id": 552994
+  },
+  "mh3:11": {
+   "nombre": "Kozilek's Command",
+   "rareza": "rare",
+   "precio_normal": 7.17,
+   "precio_foil": 10.76,
+   "tcgplayer_id": 552839
+  },
+  "mh3:110": {
+   "nombre": "Warren Soultrader",
+   "rareza": "rare",
+   "precio_normal": 23.41,
+   "precio_foil": 23.59,
+   "tcgplayer_id": 552631
+  },
+  "mh3:111": {
+   "nombre": "Wither and Bloom",
+   "rareza": "common",
+   "precio_normal": 0.16,
+   "precio_foil": 0.26,
+   "tcgplayer_id": 553246
+  },
+  "mh3:112": {
+   "nombre": "Wurmcoil Larva",
+   "rareza": "uncommon",
+   "precio_normal": 0.23,
+   "precio_foil": 0.26,
+   "tcgplayer_id": 552277
+  },
+  "mh3:113": {
+   "nombre": "Aether Revolt",
+   "rareza": "rare",
+   "precio_normal": 0.33,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 552869
+  },
+  "mh3:114": {
+   "nombre": "Amped Raptor",
+   "rareza": "uncommon",
+   "precio_normal": 0.16,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 552664
+  },
+  "mh3:115": {
+   "nombre": "Ashling, Flame Dancer",
+   "rareza": "mythic",
+   "precio_normal": 5.75,
+   "precio_foil": 6.45,
+   "tcgplayer_id": 552857
+  },
+  "mh3:116": {
+   "nombre": "Detective's Phoenix",
+   "rareza": "rare",
+   "precio_normal": 0.77,
+   "precio_foil": 0.94,
+   "tcgplayer_id": 552322
+  },
+  "mh3:117": {
+   "nombre": "Eldrazi Linebreaker",
+   "rareza": "rare",
+   "precio_normal": 0.34,
+   "precio_foil": 0.47,
+   "tcgplayer_id": 552845
+  },
+  "mh3:118": {
+   "nombre": "Fanged Flames",
+   "rareza": "common",
+   "precio_normal": 0.16,
+   "precio_foil": 0.2,
+   "tcgplayer_id": 553254
+  },
+  "mh3:119": {
+   "nombre": "Flare of Duplication",
+   "rareza": "rare",
+   "precio_normal": 1.91,
+   "precio_foil": 2.75,
+   "tcgplayer_id": 552312
+  },
+  "mh3:12": {
+   "nombre": "Null Elemental Blast",
+   "rareza": "uncommon",
+   "precio_normal": 0.36,
+   "precio_foil": 1.38,
+   "tcgplayer_id": 548593
+  },
+  "mh3:120": {
+   "nombre": "Frogmyr Enforcer",
+   "rareza": "uncommon",
+   "precio_normal": 0.25,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 552304
+  },
+  "mh3:121": {
+   "nombre": "Furnace Hellkite",
+   "rareza": "uncommon",
+   "precio_normal": 0.23,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 552867
+  },
+  "mh3:122": {
+   "nombre": "Galvanic Discharge",
+   "rareza": "common",
+   "precio_normal": 0.25,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 552669
+  },
+  "mh3:123": {
+   "nombre": "Ghostfire Slice",
+   "rareza": "uncommon",
+   "precio_normal": 0.26,
+   "precio_foil": 0.4,
+   "tcgplayer_id": 552827
+  },
+  "mh3:124": {
+   "nombre": "Glimpse the Impossible",
+   "rareza": "common",
+   "precio_normal": 0.25,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 552276
+  },
+  "mh3:125": {
+   "nombre": "Infernal Captor",
+   "rareza": "common",
+   "precio_normal": 0.07,
+   "precio_foil": 0.21,
+   "tcgplayer_id": 553262
+  },
+  "mh3:126": {
+   "nombre": "Inventor's Axe",
+   "rareza": "common",
+   "precio_normal": 0.18,
+   "precio_foil": 0.23,
+   "tcgplayer_id": 553269
+  },
+  "mh3:127": {
+   "nombre": "Mogg Mob",
+   "rareza": "uncommon",
+   "precio_normal": 0.23,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 552267
+  },
+  "mh3:128": {
+   "nombre": "Molten Gatekeeper",
+   "rareza": "common",
+   "precio_normal": 0.28,
+   "precio_foil": 1.49,
+   "tcgplayer_id": 553280
+  },
+  "mh3:129": {
+   "nombre": "Party Thrasher",
+   "rareza": "rare",
+   "precio_normal": 0.68,
+   "precio_foil": 0.65,
+   "tcgplayer_id": 552832
+  },
+  "mh3:13": {
+   "nombre": "Nulldrifter",
+   "rareza": "rare",
+   "precio_normal": 1.31,
+   "precio_foil": 1.53,
+   "tcgplayer_id": 548590
+  },
+  "mh3:130": {
+   "nombre": "Phyrexian Ironworks",
+   "rareza": "uncommon",
+   "precio_normal": 0.19,
+   "precio_foil": 0.3,
+   "tcgplayer_id": 553286
+  },
+  "mh3:131": {
+   "nombre": "Powerbalance",
+   "rareza": "rare",
+   "precio_normal": 0.35,
+   "precio_foil": 0.4,
+   "tcgplayer_id": 552290
+  },
+  "mh3:132": {
+   "nombre": "Ral and the Implicit Maze",
+   "rareza": "uncommon",
+   "precio_normal": 0.14,
+   "precio_foil": 0.3,
+   "tcgplayer_id": 552811
+  },
+  "mh3:133": {
+   "nombre": "Reckless Pyrosurfer",
+   "rareza": "uncommon",
+   "precio_normal": 0.19,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 552715
+  },
+  "mh3:134": {
+   "nombre": "Reiterating Bolt",
+   "rareza": "uncommon",
+   "precio_normal": 0.23,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 552833
+  },
+  "mh3:135": {
+   "nombre": "Sarpadian Simulacrum",
+   "rareza": "common",
+   "precio_normal": 0.13,
+   "precio_foil": 0.25,
+   "tcgplayer_id": 553301
+  },
+  "mh3:136": {
+   "nombre": "Siege Smash",
+   "rareza": "common",
+   "precio_normal": 0.27,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 553303
+  },
+  "mh3:137": {
+   "nombre": "Skittering Precursor",
+   "rareza": "uncommon",
+   "precio_normal": 0.24,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 552862
+  },
+  "mh3:138": {
+   "nombre": "Skoa, Embermage",
+   "rareza": "common",
+   "precio_normal": 0.06,
+   "precio_foil": 0.13,
+   "tcgplayer_id": 552666
+  },
+  "mh3:139": {
+   "nombre": "Smelted Chargebug",
+   "rareza": "common",
+   "precio_normal": 0.12,
+   "precio_foil": 0.24,
+   "tcgplayer_id": 553305
+  },
+  "mh3:14": {
+   "nombre": "Twisted Riddlekeeper",
+   "rareza": "uncommon",
+   "precio_normal": 0.14,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 552848
+  },
+  "mh3:140": {
+   "nombre": "Spawn-Gang Commander",
+   "rareza": "uncommon",
+   "precio_normal": 0.21,
+   "precio_foil": 0.41,
+   "tcgplayer_id": 548606
+  },
+  "mh3:141": {
+   "nombre": "Thriving Skyclaw",
+   "rareza": "common",
+   "precio_normal": 0.16,
+   "precio_foil": 0.22,
+   "tcgplayer_id": 553307
+  },
+  "mh3:142": {
+   "nombre": "Unstable Amulet",
+   "rareza": "uncommon",
+   "precio_normal": 0.25,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 552637
+  },
+  "mh3:143": {
+   "nombre": "Voidpouncer",
+   "rareza": "common",
+   "precio_normal": 0.14,
+   "precio_foil": 0.28,
+   "tcgplayer_id": 553308
+  },
+  "mh3:144": {
+   "nombre": "Wheel of Potential",
+   "rareza": "rare",
+   "precio_normal": 0.23,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 552292
+  },
+  "mh3:145": {
+   "nombre": "Basking Broodscale",
+   "rareza": "common",
+   "precio_normal": 0.29,
+   "precio_foil": 1.13,
+   "tcgplayer_id": 552176
+  },
+  "mh3:146": {
+   "nombre": "Birthing Ritual",
+   "rareza": "mythic",
+   "precio_normal": 4.15,
+   "precio_foil": 5.4,
+   "tcgplayer_id": 552823
+  },
+  "mh3:147": {
+   "nombre": "Collective Resistance",
+   "rareza": "uncommon",
+   "precio_normal": 1.77,
+   "precio_foil": 3.12,
+   "tcgplayer_id": 552623
+  },
+  "mh3:148": {
+   "nombre": "Colossal Dreadmask",
+   "rareza": "common",
+   "precio_normal": 0.09,
+   "precio_foil": 0.2,
+   "tcgplayer_id": 552826
+  },
+  "mh3:149": {
+   "nombre": "Eladamri, Korvecdal",
+   "rareza": "mythic",
+   "precio_normal": 9.8,
+   "precio_foil": 10.33,
+   "tcgplayer_id": 552311
+  },
+  "mh3:15": {
+   "nombre": "Ulamog, the Defiler",
+   "rareza": "mythic",
+   "precio_normal": 20.06,
+   "precio_foil": 19.7,
+   "tcgplayer_id": 552309
+  },
+  "mh3:150": {
+   "nombre": "Eldrazi Repurposer",
+   "rareza": "common",
+   "precio_normal": 0.22,
+   "precio_foil": 0.28,
+   "tcgplayer_id": 553314
+  },
+  "mh3:151": {
+   "nombre": "Evolution Witness",
+   "rareza": "common",
+   "precio_normal": 0.26,
+   "precio_foil": 1.62,
+   "tcgplayer_id": 552324
+  },
+  "mh3:152": {
+   "nombre": "Fanatic of Rhonas",
+   "rareza": "rare",
+   "precio_normal": 16.06,
+   "precio_foil": 19.34,
+   "tcgplayer_id": 552830
+  },
+  "mh3:153": {
+   "nombre": "Fangs of Kalonia",
+   "rareza": "uncommon",
+   "precio_normal": 0.3,
+   "precio_foil": 0.4,
+   "tcgplayer_id": 552812
+  },
+  "mh3:154": {
+   "nombre": "Flare of Cultivation",
+   "rareza": "rare",
+   "precio_normal": 0.66,
+   "precio_foil": 0.86,
+   "tcgplayer_id": 541270
+  },
+  "mh3:155": {
+   "nombre": "Fowl Strike",
+   "rareza": "common",
+   "precio_normal": 0.13,
+   "precio_foil": 0.11,
+   "tcgplayer_id": 552870
+  },
+  "mh3:156": {
+   "nombre": "Gift of the Viper",
+   "rareza": "common",
+   "precio_normal": 0.23,
+   "precio_foil": 0.4,
+   "tcgplayer_id": 553321
+  },
+  "mh3:157": {
+   "nombre": "Horrific Assault",
+   "rareza": "common",
+   "precio_normal": 0.19,
+   "precio_foil": 0.25,
+   "tcgplayer_id": 553322
+  },
+  "mh3:158": {
+   "nombre": "The Hunger Tide Rises",
+   "rareza": "uncommon",
+   "precio_normal": 0.23,
+   "precio_foil": 0.26,
+   "tcgplayer_id": 552850
+  },
+  "mh3:159": {
+   "nombre": "Hydra Trainer",
+   "rareza": "uncommon",
+   "precio_normal": 0.26,
+   "precio_foil": 0.33,
+   "tcgplayer_id": 552858
+  },
+  "mh3:16": {
+   "nombre": "Warped Tusker",
+   "rareza": "common",
+   "precio_normal": 0.16,
+   "precio_foil": 0.24,
+   "tcgplayer_id": 553306
+  },
+  "mh3:160": {
+   "nombre": "Lion Umbra",
+   "rareza": "uncommon",
+   "precio_normal": 0.25,
+   "precio_foil": 0.35,
+   "tcgplayer_id": 553324
+  },
+  "mh3:161": {
+   "nombre": "Malevolent Rumble",
+   "rareza": "common",
+   "precio_normal": 0.49,
+   "precio_foil": 1.7,
+   "tcgplayer_id": 553328
+  },
+  "mh3:162": {
+   "nombre": "Monstrous Vortex",
+   "rareza": "uncommon",
+   "precio_normal": 0.33,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 552868
+  },
+  "mh3:163": {
+   "nombre": "Nightshade Dryad",
+   "rareza": "common",
+   "precio_normal": 0.21,
+   "precio_foil": 0.38,
+   "tcgplayer_id": 553327
+  },
+  "mh3:164": {
+   "nombre": "Nyxborn Hydra",
+   "rareza": "common",
+   "precio_normal": 0.36,
+   "precio_foil": 1.09,
+   "tcgplayer_id": 552872
+  },
+  "mh3:165": {
+   "nombre": "Path of Annihilation",
+   "rareza": "uncommon",
+   "precio_normal": 0.31,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 552628
+  },
+  "mh3:166": {
+   "nombre": "Primal Prayers",
+   "rareza": "rare",
+   "precio_normal": 0.25,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 552842
+  },
+  "mh3:167": {
+   "nombre": "Propagator Drone",
+   "rareza": "uncommon",
+   "precio_normal": 0.24,
+   "precio_foil": 0.3,
+   "tcgplayer_id": 553325
+  },
+  "mh3:168": {
+   "nombre": "Signature Slam",
+   "rareza": "uncommon",
+   "precio_normal": 0.25,
+   "precio_foil": 0.29,
+   "tcgplayer_id": 552721
+  },
+  "mh3:169": {
+   "nombre": "Six",
+   "rareza": "rare",
+   "precio_normal": 5.56,
+   "precio_foil": 6.55,
+   "tcgplayer_id": 552272
+  },
+  "mh3:17": {
+   "nombre": "Wastescape Battlemage",
+   "rareza": "uncommon",
+   "precio_normal": 0.26,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 552817
+  },
+  "mh3:170": {
+   "nombre": "Sowing Mycospawn",
+   "rareza": "rare",
+   "precio_normal": 1.47,
+   "precio_foil": 2.27,
+   "tcgplayer_id": 552738
+  },
+  "mh3:171": {
+   "nombre": "Springheart Nantuko",
+   "rareza": "rare",
+   "precio_normal": 6.07,
+   "precio_foil": 7.24,
+   "tcgplayer_id": 552859
+  },
+  "mh3:172": {
+   "nombre": "Temperamental Oozewagg",
+   "rareza": "common",
+   "precio_normal": 0.15,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 552720
+  },
+  "mh3:173": {
+   "nombre": "Territory Culler",
+   "rareza": "uncommon",
+   "precio_normal": 0.26,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 553323
+  },
+  "mh3:174": {
+   "nombre": "Thief of Existence",
+   "rareza": "rare",
+   "precio_normal": 0.3,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 552390
+  },
+  "mh3:175": {
+   "nombre": "Trickster's Elk",
+   "rareza": "uncommon",
+   "precio_normal": 0.19,
+   "precio_foil": 0.28,
+   "tcgplayer_id": 552281
+  },
+  "mh3:176": {
+   "nombre": "Wumpus Aberration",
+   "rareza": "uncommon",
+   "precio_normal": 0.21,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 551671
+  },
+  "mh3:177": {
+   "nombre": "Abstruse Appropriation",
+   "rareza": "rare",
+   "precio_normal": 0.31,
+   "precio_foil": 0.35,
+   "tcgplayer_id": 552854
+  },
+  "mh3:178": {
+   "nombre": "Arna Kennerüd, Skycaptain",
+   "rareza": "mythic",
+   "precio_normal": 0.42,
+   "precio_foil": 0.61,
+   "tcgplayer_id": 553796
+  },
+  "mh3:179": {
+   "nombre": "Conduit Goblin",
+   "rareza": "common",
+   "precio_normal": 0.09,
+   "precio_foil": 0.24,
+   "tcgplayer_id": 552636
+  },
+  "mh3:18": {
+   "nombre": "Aerie Auxiliary",
+   "rareza": "common",
+   "precio_normal": 0.08,
+   "precio_foil": 0.2,
+   "tcgplayer_id": 553121
+  },
+  "mh3:180": {
+   "nombre": "Cranial Ram",
+   "rareza": "common",
+   "precio_normal": 0.19,
+   "precio_foil": 0.28,
+   "tcgplayer_id": 552718
+  },
+  "mh3:181": {
+   "nombre": "Cursed Wombat",
+   "rareza": "uncommon",
+   "precio_normal": 0.2,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 553320
+  },
+  "mh3:182": {
+   "nombre": "Cyclops Superconductor",
+   "rareza": "common",
+   "precio_normal": 0.17,
+   "precio_foil": 0.24,
+   "tcgplayer_id": 553319
+  },
+  "mh3:183": {
+   "nombre": "Emissary of Soulfire",
+   "rareza": "uncommon",
+   "precio_normal": 0.23,
+   "precio_foil": 0.3,
+   "tcgplayer_id": 553318
+  },
+  "mh3:184": {
+   "nombre": "Expanding Ooze",
+   "rareza": "common",
+   "precio_normal": 0.18,
+   "precio_foil": 0.28,
+   "tcgplayer_id": 552723
+  },
+  "mh3:185": {
+   "nombre": "Faithful Watchdog",
+   "rareza": "common",
+   "precio_normal": 0.24,
+   "precio_foil": 0.29,
+   "tcgplayer_id": 553317
+  },
+  "mh3:186": {
+   "nombre": "Genku, Future Shaper",
+   "rareza": "rare",
+   "precio_normal": 0.25,
+   "precio_foil": 0.29,
+   "tcgplayer_id": 552318
+  },
+  "mh3:187": {
+   "nombre": "Golden-Tail Trainer",
+   "rareza": "uncommon",
+   "precio_normal": 0.22,
+   "precio_foil": 0.33,
+   "tcgplayer_id": 552846
+  },
+  "mh3:188": {
+   "nombre": "Horrid Shadowspinner",
+   "rareza": "uncommon",
+   "precio_normal": 0.22,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 552805
+  },
+  "mh3:189": {
+   "nombre": "Imskir Iron-Eater",
+   "rareza": "rare",
+   "precio_normal": 0.26,
+   "precio_foil": 0.34,
+   "tcgplayer_id": 552713
+  },
+  "mh3:19": {
+   "nombre": "Ajani Fells the Godsire",
+   "rareza": "uncommon",
+   "precio_normal": 0.25,
+   "precio_foil": 0.34,
+   "tcgplayer_id": 552856
+  },
+  "mh3:190": {
+   "nombre": "Invert Polarity",
+   "rareza": "rare",
+   "precio_normal": 0.65,
+   "precio_foil": 0.79,
+   "tcgplayer_id": 552825
+  },
+  "mh3:191": {
+   "nombre": "Izzet Generatorium",
+   "rareza": "uncommon",
+   "precio_normal": 0.27,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 552302
+  },
+  "mh3:192": {
+   "nombre": "Kudo, King Among Bears",
+   "rareza": "rare",
+   "precio_normal": 0.34,
+   "precio_foil": 0.4,
+   "tcgplayer_id": 548608
+  },
+  "mh3:193": {
+   "nombre": "Nadu, Winged Wisdom",
+   "rareza": "rare",
+   "precio_normal": 0.34,
+   "precio_foil": 0.43,
+   "tcgplayer_id": 552864
+  },
+  "mh3:194": {
+   "nombre": "The Necrobloom",
+   "rareza": "rare",
+   "precio_normal": 0.33,
+   "precio_foil": 0.38,
+   "tcgplayer_id": 552459
+  },
+  "mh3:195": {
+   "nombre": "Obstinate Gargoyle",
+   "rareza": "common",
+   "precio_normal": 0.23,
+   "precio_foil": 0.26,
+   "tcgplayer_id": 553316
+  },
+  "mh3:196": {
+   "nombre": "Ondu Knotmaster // Throw a Line",
+   "rareza": "uncommon",
+   "precio_normal": 0.15,
+   "precio_foil": 0.23,
+   "tcgplayer_id": 552818
+  },
+  "mh3:197": {
+   "nombre": "Phlage, Titan of Fire's Fury",
+   "rareza": "mythic",
+   "precio_normal": 2.64,
+   "precio_foil": 4.56,
+   "tcgplayer_id": 552633
+  },
+  "mh3:198": {
+   "nombre": "Planar Genesis",
+   "rareza": "uncommon",
+   "precio_normal": 0.31,
+   "precio_foil": 1.74,
+   "tcgplayer_id": 552841
+  },
+  "mh3:199": {
+   "nombre": "Psychic Frog",
+   "rareza": "rare",
+   "precio_normal": 4.23,
+   "precio_foil": 6.03,
+   "tcgplayer_id": 541273
+  },
+  "mh3:2": {
+   "nombre": "Devourer of Destiny",
+   "rareza": "rare",
+   "precio_normal": 0.96,
+   "precio_foil": 1.94,
+   "tcgplayer_id": 550845
+  },
+  "mh3:20": {
+   "nombre": "Argent Dais",
+   "rareza": "rare",
+   "precio_normal": 0.25,
+   "precio_foil": 0.29,
+   "tcgplayer_id": 552610
+  },
+  "mh3:200": {
+   "nombre": "Pyretic Rebirth",
+   "rareza": "uncommon",
+   "precio_normal": 0.19,
+   "precio_foil": 0.25,
+   "tcgplayer_id": 552736
+  },
+  "mh3:201": {
+   "nombre": "Riddle Gate Gargoyle",
+   "rareza": "common",
+   "precio_normal": 0.2,
+   "precio_foil": 0.25,
+   "tcgplayer_id": 553315
+  },
+  "mh3:202": {
+   "nombre": "Rosheen, Roaring Prophet",
+   "rareza": "rare",
+   "precio_normal": 0.18,
+   "precio_foil": 0.29,
+   "tcgplayer_id": 552722
+  },
+  "mh3:203": {
+   "nombre": "Scurry of Gremlins",
+   "rareza": "uncommon",
+   "precio_normal": 0.14,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 541271
+  },
+  "mh3:204": {
+   "nombre": "Snapping Voidcraw",
+   "rareza": "common",
+   "precio_normal": 0.16,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 553313
+  },
+  "mh3:205": {
+   "nombre": "Sneaky Snacker",
+   "rareza": "common",
+   "precio_normal": 0.32,
+   "precio_foil": 0.78,
+   "tcgplayer_id": 553311
+  },
+  "mh3:206": {
+   "nombre": "Titans' Vanguard",
+   "rareza": "uncommon",
+   "precio_normal": 0.23,
+   "precio_foil": 0.28,
+   "tcgplayer_id": 553309
+  },
+  "mh3:207": {
+   "nombre": "Wight of the Reliquary",
+   "rareza": "rare",
+   "precio_normal": 0.9,
+   "precio_foil": 1.43,
+   "tcgplayer_id": 548599
+  },
+  "mh3:208": {
+   "nombre": "Writhing Chrysalis",
+   "rareza": "common",
+   "precio_normal": 0.25,
+   "precio_foil": 1.0,
+   "tcgplayer_id": 551669
+  },
+  "mh3:209": {
+   "nombre": "Disruptor Flute",
+   "rareza": "rare",
+   "precio_normal": 1.42,
+   "precio_foil": 2.98,
+   "tcgplayer_id": 552584
+  },
+  "mh3:21": {
+   "nombre": "Charitable Levy",
+   "rareza": "uncommon",
+   "precio_normal": 0.2,
+   "precio_foil": 0.29,
+   "tcgplayer_id": 552716
+  },
+  "mh3:210": {
+   "nombre": "Idol of False Gods",
+   "rareza": "uncommon",
+   "precio_normal": 0.34,
+   "precio_foil": 0.37,
+   "tcgplayer_id": 552860
+  },
+  "mh3:211": {
+   "nombre": "Solar Transformer",
+   "rareza": "uncommon",
+   "precio_normal": 0.29,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 552865
+  },
+  "mh3:212": {
+   "nombre": "Vexing Bauble",
+   "rareza": "uncommon",
+   "precio_normal": 1.89,
+   "precio_foil": 5.99,
+   "tcgplayer_id": 552814
+  },
+  "mh3:213": {
+   "nombre": "Winter Moon",
+   "rareza": "rare",
+   "precio_normal": 0.72,
+   "precio_foil": 1.18,
+   "tcgplayer_id": 548574
+  },
+  "mh3:214": {
+   "nombre": "Archway of Innovation",
+   "rareza": "rare",
+   "precio_normal": 1.47,
+   "precio_foil": 1.32,
+   "tcgplayer_id": 552861
+  },
+  "mh3:215": {
+   "nombre": "Arena of Glory",
+   "rareza": "rare",
+   "precio_normal": 8.87,
+   "precio_foil": 9.62,
+   "tcgplayer_id": 553264
+  },
+  "mh3:216": {
+   "nombre": "Bloodstained Mire",
+   "rareza": "rare",
+   "precio_normal": 20.56,
+   "precio_foil": 20.58,
+   "tcgplayer_id": 541275
+  },
+  "mh3:217": {
+   "nombre": "Bountiful Landscape",
+   "rareza": "common",
+   "precio_normal": 0.2,
+   "precio_foil": 0.37,
+   "tcgplayer_id": 553272
+  },
+  "mh3:218": {
+   "nombre": "Contaminated Landscape",
+   "rareza": "common",
+   "precio_normal": 0.22,
+   "precio_foil": 0.35,
+   "tcgplayer_id": 553276
+  },
+  "mh3:219": {
+   "nombre": "Deceptive Landscape",
+   "rareza": "common",
+   "precio_normal": 0.2,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 553278
+  },
+  "mh3:22": {
+   "nombre": "Dog Umbra",
+   "rareza": "common",
+   "precio_normal": 0.25,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 552308
+  },
+  "mh3:220": {
+   "nombre": "Flooded Strand",
+   "rareza": "rare",
+   "precio_normal": 16.07,
+   "precio_foil": 17.33,
+   "tcgplayer_id": 541276
+  },
+  "mh3:221": {
+   "nombre": "Foreboding Landscape",
+   "rareza": "common",
+   "precio_normal": 0.25,
+   "precio_foil": 0.3,
+   "tcgplayer_id": 553281
+  },
+  "mh3:222": {
+   "nombre": "Monumental Henge",
+   "rareza": "rare",
+   "precio_normal": 0.6,
+   "precio_foil": 0.69,
+   "tcgplayer_id": 552871
+  },
+  "mh3:223": {
+   "nombre": "Perilous Landscape",
+   "rareza": "common",
+   "precio_normal": 0.26,
+   "precio_foil": 0.25,
+   "tcgplayer_id": 553288
+  },
+  "mh3:224": {
+   "nombre": "Polluted Delta",
+   "rareza": "rare",
+   "precio_normal": 21.38,
+   "precio_foil": 22.12,
+   "tcgplayer_id": 541274
+  },
+  "mh3:225": {
+   "nombre": "Seething Landscape",
+   "rareza": "common",
+   "precio_normal": 0.26,
+   "precio_foil": 0.34,
+   "tcgplayer_id": 553290
+  },
+  "mh3:226": {
+   "nombre": "Shattered Landscape",
+   "rareza": "common",
+   "precio_normal": 0.26,
+   "precio_foil": 0.25,
+   "tcgplayer_id": 553292
+  },
+  "mh3:227": {
+   "nombre": "Sheltering Landscape",
+   "rareza": "common",
+   "precio_normal": 0.28,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 553295
+  },
+  "mh3:228": {
+   "nombre": "Shifting Woodland",
+   "rareza": "rare",
+   "precio_normal": 7.66,
+   "precio_foil": 8.25,
+   "tcgplayer_id": 552727
+  },
+  "mh3:229": {
+   "nombre": "Snow-Covered Wastes",
+   "rareza": "uncommon",
+   "precio_normal": 0.62,
+   "precio_foil": 0.64,
+   "tcgplayer_id": 548383
+  },
+  "mh3:23": {
+   "nombre": "Envoy of the Ancestors",
+   "rareza": "uncommon",
+   "precio_normal": 0.36,
+   "precio_foil": 0.43,
+   "tcgplayer_id": 553133
+  },
+  "mh3:230": {
+   "nombre": "Spymaster's Vault",
+   "rareza": "rare",
+   "precio_normal": 3.23,
+   "precio_foil": 2.94,
+   "tcgplayer_id": 552624
+  },
+  "mh3:231": {
+   "nombre": "Tranquil Landscape",
+   "rareza": "common",
+   "precio_normal": 0.2,
+   "precio_foil": 0.35,
+   "tcgplayer_id": 553296
+  },
+  "mh3:232": {
+   "nombre": "Twisted Landscape",
+   "rareza": "common",
+   "precio_normal": 0.26,
+   "precio_foil": 0.33,
+   "tcgplayer_id": 553297
+  },
+  "mh3:233": {
+   "nombre": "Ugin's Labyrinth",
+   "rareza": "mythic",
+   "precio_normal": 12.82,
+   "precio_foil": 14.85,
+   "tcgplayer_id": 548589
+  },
+  "mh3:234": {
+   "nombre": "Urza's Cave",
+   "rareza": "uncommon",
+   "precio_normal": 3.07,
+   "precio_foil": 3.6,
+   "tcgplayer_id": 548592
+  },
+  "mh3:235": {
+   "nombre": "Windswept Heath",
+   "rareza": "rare",
+   "precio_normal": 12.17,
+   "precio_foil": 13.02,
+   "tcgplayer_id": 541272
+  },
+  "mh3:236": {
+   "nombre": "Wooded Foothills",
+   "rareza": "rare",
+   "precio_normal": 19.51,
+   "precio_foil": 19.79,
+   "tcgplayer_id": 541277
+  },
+  "mh3:237": {
+   "nombre": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+   "rareza": "mythic",
+   "precio_normal": 9.17,
+   "precio_foil": 11.19,
+   "tcgplayer_id": 541279
+  },
+  "mh3:238": {
+   "nombre": "Razorgrass Ambush // Razorgrass Field",
+   "rareza": "uncommon",
+   "precio_normal": 0.31,
+   "precio_foil": 0.39,
+   "tcgplayer_id": 552581
+  },
+  "mh3:239": {
+   "nombre": "Witch Enchanter // Witch-Blessed Meadow",
+   "rareza": "uncommon",
+   "precio_normal": 5.37,
+   "precio_foil": 7.29,
+   "tcgplayer_id": 552336
+  },
+  "mh3:24": {
+   "nombre": "Essence Reliquary",
+   "rareza": "uncommon",
+   "precio_normal": 0.19,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 552612
+  },
+  "mh3:240": {
+   "nombre": "Hydroelectric Specimen // Hydroelectric Laboratory",
+   "rareza": "uncommon",
+   "precio_normal": 1.67,
+   "precio_foil": 2.48,
+   "tcgplayer_id": 553181
+  },
+  "mh3:241": {
+   "nombre": "Sink into Stupor // Soporific Springs",
+   "rareza": "uncommon",
+   "precio_normal": 9.43,
+   "precio_foil": 11.13,
+   "tcgplayer_id": 552582
+  },
+  "mh3:242": {
+   "nombre": "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
+   "rareza": "mythic",
+   "precio_normal": 15.61,
+   "precio_foil": 21.54,
+   "tcgplayer_id": 552333
+  },
+  "mh3:243": {
+   "nombre": "Boggart Trawler // Boggart Bog",
+   "rareza": "uncommon",
+   "precio_normal": 1.91,
+   "precio_foil": 3.42,
+   "tcgplayer_id": 552873
+  },
+  "mh3:244": {
+   "nombre": "Fell the Profane // Fell Mire",
+   "rareza": "uncommon",
+   "precio_normal": 5.73,
+   "precio_foil": 7.36,
+   "tcgplayer_id": 552580
+  },
+  "mh3:245": {
+   "nombre": "Sorin of House Markov // Sorin, Ravenous Neonate",
+   "rareza": "mythic",
+   "precio_normal": 4.89,
+   "precio_foil": 5.15,
+   "tcgplayer_id": 552341
+  },
+  "mh3:246": {
+   "nombre": "Pinnacle Monk // Mystic Peak",
+   "rareza": "uncommon",
+   "precio_normal": 2.0,
+   "precio_foil": 3.91,
+   "tcgplayer_id": 553299
+  },
+  "mh3:247": {
+   "nombre": "Ral, Monsoon Mage // Ral, Leyline Prodigy",
+   "rareza": "mythic",
+   "precio_normal": 6.04,
+   "precio_foil": 7.78,
+   "tcgplayer_id": 552330
+  },
+  "mh3:248": {
+   "nombre": "Sundering Eruption // Volcanic Fissure",
+   "rareza": "uncommon",
+   "precio_normal": 0.94,
+   "precio_foil": 4.45,
+   "tcgplayer_id": 552583
+  },
+  "mh3:249": {
+   "nombre": "Bridgeworks Battle // Tanglespan Bridgeworks",
+   "rareza": "uncommon",
+   "precio_normal": 0.91,
+   "precio_foil": 2.11,
+   "tcgplayer_id": 552579
+  },
+  "mh3:25": {
+   "nombre": "Expel the Unworthy",
+   "rareza": "common",
+   "precio_normal": 0.07,
+   "precio_foil": 0.11,
+   "tcgplayer_id": 552807
+  },
+  "mh3:250": {
+   "nombre": "Disciple of Freyalise // Garden of Freyalise",
+   "rareza": "uncommon",
+   "precio_normal": 3.97,
+   "precio_foil": 6.7,
+   "tcgplayer_id": 552466
+  },
+  "mh3:251": {
+   "nombre": "Grist, Voracious Larva // Grist, the Plague Swarm",
+   "rareza": "mythic",
+   "precio_normal": 1.32,
+   "precio_foil": 1.86,
+   "tcgplayer_id": 552338
+  },
+  "mh3:252": {
+   "nombre": "Bloodsoaked Insight // Sanguine Morass",
+   "rareza": "uncommon",
+   "precio_normal": 0.27,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 552650
+  },
+  "mh3:253": {
+   "nombre": "Drowner of Truth // Drowned Jungle",
+   "rareza": "uncommon",
+   "precio_normal": 0.19,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 552645
+  },
+  "mh3:254": {
+   "nombre": "Glasswing Grace // Age-Graced Chapel",
+   "rareza": "uncommon",
+   "precio_normal": 0.34,
+   "precio_foil": 0.38,
+   "tcgplayer_id": 552644
+  },
+  "mh3:255": {
+   "nombre": "Legion Leadership // Legion Stronghold",
+   "rareza": "uncommon",
+   "precio_normal": 0.44,
+   "precio_foil": 3.73,
+   "tcgplayer_id": 552649
+  },
+  "mh3:256": {
+   "nombre": "Revitalizing Repast // Old-Growth Grove",
+   "rareza": "uncommon",
+   "precio_normal": 1.54,
+   "precio_foil": 2.5,
+   "tcgplayer_id": 552651
+  },
+  "mh3:257": {
+   "nombre": "Rush of Inspiration // Crackling Falls",
+   "rareza": "uncommon",
+   "precio_normal": 0.21,
+   "precio_foil": 0.33,
+   "tcgplayer_id": 552640
+  },
+  "mh3:258": {
+   "nombre": "Strength of the Harvest // Haven of the Harvest",
+   "rareza": "uncommon",
+   "precio_normal": 0.35,
+   "precio_foil": 0.86,
+   "tcgplayer_id": 552647
+  },
+  "mh3:259": {
+   "nombre": "Stump Stomp // Burnwillow Clearing",
+   "rareza": "uncommon",
+   "precio_normal": 0.37,
+   "precio_foil": 2.11,
+   "tcgplayer_id": 552648
+  },
+  "mh3:26": {
+   "nombre": "Flare of Fortitude",
+   "rareza": "rare",
+   "precio_normal": 5.89,
+   "precio_foil": 5.88,
+   "tcgplayer_id": 552293
+  },
+  "mh3:260": {
+   "nombre": "Suppression Ray // Orderly Plaza",
+   "rareza": "uncommon",
+   "precio_normal": 0.22,
+   "precio_foil": 0.29,
+   "tcgplayer_id": 552639
+  },
+  "mh3:261": {
+   "nombre": "Waterlogged Teachings // Inundated Archive",
+   "rareza": "uncommon",
+   "precio_normal": 0.42,
+   "precio_foil": 1.84,
+   "tcgplayer_id": 552646
+  },
+  "mh3:262": {
+   "nombre": "Angel of the Ruins",
+   "rareza": "uncommon",
+   "precio_normal": 0.27,
+   "precio_foil": 0.41,
+   "tcgplayer_id": 553124
+  },
+  "mh3:263": {
+   "nombre": "Decree of Justice",
+   "rareza": "uncommon",
+   "precio_normal": 0.21,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 552820
+  },
+  "mh3:264": {
+   "nombre": "Distinguished Conjurer",
+   "rareza": "uncommon",
+   "precio_normal": 0.21,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 553129
+  },
+  "mh3:265": {
+   "nombre": "Orim's Chant",
+   "rareza": "rare",
+   "precio_normal": 5.52,
+   "precio_foil": 7.25,
+   "tcgplayer_id": 548578
+  },
+  "mh3:266": {
+   "nombre": "Recruiter of the Guard",
+   "rareza": "mythic",
+   "precio_normal": 5.65,
+   "precio_foil": 7.3,
+   "tcgplayer_id": 552834
+  },
+  "mh3:267": {
+   "nombre": "Sevinne's Reclamation",
+   "rareza": "rare",
+   "precio_normal": 0.54,
+   "precio_foil": 2.01,
+   "tcgplayer_id": 552819
+  },
+  "mh3:268": {
+   "nombre": "Deep Analysis",
+   "rareza": "uncommon",
+   "precio_normal": 0.25,
+   "precio_foil": 0.29,
+   "tcgplayer_id": 552617
+  },
+  "mh3:269": {
+   "nombre": "Estrid's Invocation",
+   "rareza": "rare",
+   "precio_normal": 0.39,
+   "precio_foil": 0.77,
+   "tcgplayer_id": 552726
+  },
+  "mh3:27": {
+   "nombre": "Glyph Elemental",
+   "rareza": "uncommon",
+   "precio_normal": 0.24,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 552835
+  },
+  "mh3:270": {
+   "nombre": "Kappa Cannoneer",
+   "rareza": "rare",
+   "precio_normal": 0.65,
+   "precio_foil": 1.6,
+   "tcgplayer_id": 548591
+  },
+  "mh3:271": {
+   "nombre": "Reef Worm",
+   "rareza": "uncommon",
+   "precio_normal": 0.23,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 552730
+  },
+  "mh3:272": {
+   "nombre": "Shrieking Drake",
+   "rareza": "uncommon",
+   "precio_normal": 0.18,
+   "precio_foil": 0.37,
+   "tcgplayer_id": 553190
+  },
+  "mh3:273": {
+   "nombre": "Buried Alive",
+   "rareza": "uncommon",
+   "precio_normal": 3.79,
+   "precio_foil": 3.3,
+   "tcgplayer_id": 552813
+  },
+  "mh3:274": {
+   "nombre": "K'rrik, Son of Yawgmoth",
+   "rareza": "rare",
+   "precio_normal": 1.11,
+   "precio_foil": 1.8,
+   "tcgplayer_id": 552301
+  },
+  "mh3:275": {
+   "nombre": "Nadier's Nightblade",
+   "rareza": "uncommon",
+   "precio_normal": 0.34,
+   "precio_foil": 0.38,
+   "tcgplayer_id": 553230
+  },
+  "mh3:276": {
+   "nombre": "Ophiomancer",
+   "rareza": "rare",
+   "precio_normal": 1.95,
+   "precio_foil": 2.47,
+   "tcgplayer_id": 552625
+  },
+  "mh3:277": {
+   "nombre": "Toxic Deluge",
+   "rareza": "rare",
+   "precio_normal": 5.91,
+   "precio_foil": 6.67,
+   "tcgplayer_id": 552728
+  },
+  "mh3:278": {
+   "nombre": "Victimize",
+   "rareza": "uncommon",
+   "precio_normal": 0.61,
+   "precio_foil": 2.62,
+   "tcgplayer_id": 552740
+  },
+  "mh3:279": {
+   "nombre": "Cursed Mirror",
+   "rareza": "rare",
+   "precio_normal": 1.06,
+   "precio_foil": 1.72,
+   "tcgplayer_id": 552729
+  },
+  "mh3:28": {
+   "nombre": "Guardian of the Forgotten",
+   "rareza": "uncommon",
+   "precio_normal": 0.12,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 552828
+  },
+  "mh3:280": {
+   "nombre": "Fledgling Dragon",
+   "rareza": "uncommon",
+   "precio_normal": 0.18,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 553259
+  },
+  "mh3:281": {
+   "nombre": "Laelia, the Blade Reforged",
+   "rareza": "rare",
+   "precio_normal": 0.34,
+   "precio_foil": 0.56,
+   "tcgplayer_id": 541269
+  },
+  "mh3:282": {
+   "nombre": "Meltdown",
+   "rareza": "uncommon",
+   "precio_normal": 0.32,
+   "precio_foil": 0.38,
+   "tcgplayer_id": 548605
+  },
+  "mh3:283": {
+   "nombre": "Meteoric Mace",
+   "rareza": "uncommon",
+   "precio_normal": 0.19,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 553274
+  },
+  "mh3:284": {
+   "nombre": "Annoyed Altisaur",
+   "rareza": "uncommon",
+   "precio_normal": 0.27,
+   "precio_foil": 0.3,
+   "tcgplayer_id": 553310
+  },
+  "mh3:285": {
+   "nombre": "Branching Evolution",
+   "rareza": "rare",
+   "precio_normal": 7.2,
+   "precio_foil": 8.48,
+   "tcgplayer_id": 553312
+  },
+  "mh3:286": {
+   "nombre": "Priest of Titania",
+   "rareza": "uncommon",
+   "precio_normal": 0.9,
+   "precio_foil": 2.16,
+   "tcgplayer_id": 541278
+  },
+  "mh3:287": {
+   "nombre": "Sylvan Safekeeper",
+   "rareza": "rare",
+   "precio_normal": 5.92,
+   "precio_foil": 6.53,
+   "tcgplayer_id": 548583
+  },
+  "mh3:288": {
+   "nombre": "Wirewood Symbiote",
+   "rareza": "uncommon",
+   "precio_normal": 0.31,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 552634
+  },
+  "mh3:289": {
+   "nombre": "Breya, Etherium Shaper",
+   "rareza": "mythic",
+   "precio_normal": 0.37,
+   "precio_foil": 0.53,
+   "tcgplayer_id": 552299
+  },
+  "mh3:29": {
+   "nombre": "Guide of Souls",
+   "rareza": "rare",
+   "precio_normal": 4.23,
+   "precio_foil": 4.3,
+   "tcgplayer_id": 552731
+  },
+  "mh3:290": {
+   "nombre": "Kaalia of the Vast",
+   "rareza": "mythic",
+   "precio_normal": 4.48,
+   "precio_foil": 5.28,
+   "tcgplayer_id": 552317
+  },
+  "mh3:291": {
+   "nombre": "Emerald Medallion",
+   "rareza": "rare",
+   "precio_normal": 5.6,
+   "precio_foil": 6.08,
+   "tcgplayer_id": 552266
+  },
+  "mh3:292": {
+   "nombre": "Jet Medallion",
+   "rareza": "rare",
+   "precio_normal": 15.63,
+   "precio_foil": 16.25,
+   "tcgplayer_id": 552320
+  },
+  "mh3:293": {
+   "nombre": "Junk Diver",
+   "rareza": "uncommon",
+   "precio_normal": 0.35,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 552793
+  },
+  "mh3:294": {
+   "nombre": "Pearl Medallion",
+   "rareza": "rare",
+   "precio_normal": 9.67,
+   "precio_foil": 10.23,
+   "tcgplayer_id": 552307
+  },
+  "mh3:295": {
+   "nombre": "Ruby Medallion",
+   "rareza": "rare",
+   "precio_normal": 14.34,
+   "precio_foil": 15.8,
+   "tcgplayer_id": 552306
+  },
+  "mh3:296": {
+   "nombre": "Sapphire Medallion",
+   "rareza": "rare",
+   "precio_normal": 9.56,
+   "precio_foil": 8.73,
+   "tcgplayer_id": 552286
+  },
+  "mh3:297": {
+   "nombre": "Urza's Incubator",
+   "rareza": "rare",
+   "precio_normal": 21.15,
+   "precio_foil": 23.96,
+   "tcgplayer_id": 553302
+  },
+  "mh3:298": {
+   "nombre": "Worn Powerstone",
+   "rareza": "uncommon",
+   "precio_normal": 0.37,
+   "precio_foil": 0.46,
+   "tcgplayer_id": 552629
+  },
+  "mh3:299": {
+   "nombre": "Barbarian Ring",
+   "rareza": "uncommon",
+   "precio_normal": 0.26,
+   "precio_foil": 0.35,
+   "tcgplayer_id": 552632
+  },
+  "mh3:3": {
+   "nombre": "Drownyard Lurker",
+   "rareza": "common",
+   "precio_normal": 0.16,
+   "precio_foil": 0.21,
+   "tcgplayer_id": 553304
+  },
+  "mh3:30": {
+   "nombre": "Hexgold Slith",
+   "rareza": "common",
+   "precio_normal": 0.07,
+   "precio_foil": 0.12,
+   "tcgplayer_id": 553136
+  },
+  "mh3:300": {
+   "nombre": "Cephalid Coliseum",
+   "rareza": "uncommon",
+   "precio_normal": 0.27,
+   "precio_foil": 0.37,
+   "tcgplayer_id": 552626
+  },
+  "mh3:301": {
+   "nombre": "Deserted Temple",
+   "rareza": "rare",
+   "precio_normal": 0.9,
+   "precio_foil": 0.96,
+   "tcgplayer_id": 552268
+  },
+  "mh3:302": {
+   "nombre": "Nesting Grounds",
+   "rareza": "uncommon",
+   "precio_normal": 0.23,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 553298
+  },
+  "mh3:303": {
+   "nombre": "Phyrexian Tower",
+   "rareza": "mythic",
+   "precio_normal": 32.3,
+   "precio_foil": 33.93,
+   "tcgplayer_id": 552852
+  },
+  "mh3:304": {
+   "nombre": "Plains",
+   "rareza": "common",
+   "precio_normal": 0.28,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 541310
+  },
+  "mh3:305": {
+   "nombre": "Island",
+   "rareza": "common",
+   "precio_normal": 0.26,
+   "precio_foil": 0.39,
+   "tcgplayer_id": 541313
+  },
+  "mh3:306": {
+   "nombre": "Swamp",
+   "rareza": "common",
+   "precio_normal": 0.33,
+   "precio_foil": 0.33,
+   "tcgplayer_id": 541311
+  },
+  "mh3:307": {
+   "nombre": "Mountain",
+   "rareza": "common",
+   "precio_normal": 0.25,
+   "precio_foil": 0.29,
+   "tcgplayer_id": 541309
+  },
+  "mh3:308": {
+   "nombre": "Forest",
+   "rareza": "common",
+   "precio_normal": 0.26,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 541312
+  },
+  "mh3:309": {
+   "nombre": "Snow-Covered Wastes",
+   "rareza": "uncommon",
+   "precio_normal": 1.3,
+   "precio_foil": 1.72,
+   "tcgplayer_id": 548380
+  },
+  "mh3:31": {
+   "nombre": "Indebted Spirit",
+   "rareza": "uncommon",
+   "precio_normal": 0.24,
+   "precio_foil": 0.33,
+   "tcgplayer_id": 553139
+  },
+  "mh3:310": {
+   "nombre": "Plains",
+   "rareza": "common",
+   "precio_normal": 0.19,
+   "precio_foil": 0.19,
+   "tcgplayer_id": 552273
+  },
+  "mh3:311": {
+   "nombre": "Plains",
+   "rareza": "common",
+   "precio_normal": 0.16,
+   "precio_foil": 0.24,
+   "tcgplayer_id": 552265
+  },
+  "mh3:312": {
+   "nombre": "Island",
+   "rareza": "common",
+   "precio_normal": 0.18,
+   "precio_foil": 0.19,
+   "tcgplayer_id": 552288
+  },
+  "mh3:313": {
+   "nombre": "Island",
+   "rareza": "common",
+   "precio_normal": 0.24,
+   "precio_foil": 0.28,
+   "tcgplayer_id": 552279
+  },
+  "mh3:314": {
+   "nombre": "Swamp",
+   "rareza": "common",
+   "precio_normal": 0.22,
+   "precio_foil": 0.19,
+   "tcgplayer_id": 552315
+  },
+  "mh3:315": {
+   "nombre": "Swamp",
+   "rareza": "common",
+   "precio_normal": 0.19,
+   "precio_foil": 0.19,
+   "tcgplayer_id": 552294
+  },
+  "mh3:316": {
+   "nombre": "Mountain",
+   "rareza": "common",
+   "precio_normal": 0.15,
+   "precio_foil": 0.21,
+   "tcgplayer_id": 552325
+  },
+  "mh3:317": {
+   "nombre": "Mountain",
+   "rareza": "common",
+   "precio_normal": 0.15,
+   "precio_foil": 0.18,
+   "tcgplayer_id": 552278
+  },
+  "mh3:318": {
+   "nombre": "Forest",
+   "rareza": "common",
+   "precio_normal": 0.16,
+   "precio_foil": 0.23,
+   "tcgplayer_id": 552270
+  },
+  "mh3:319": {
+   "nombre": "Forest",
+   "rareza": "common",
+   "precio_normal": 0.17,
+   "precio_foil": 0.21,
+   "tcgplayer_id": 552287
+  },
+  "mh3:32": {
+   "nombre": "Inspired Inventor",
+   "rareza": "common",
+   "precio_normal": 0.17,
+   "precio_foil": 0.24,
+   "tcgplayer_id": 553143
+  },
+  "mh3:320": {
+   "nombre": "Echoes of Eternity",
+   "rareza": "rare",
+   "precio_normal": 4.01,
+   "precio_foil": 8.13,
+   "tcgplayer_id": 552184
+  },
+  "mh3:321": {
+   "nombre": "Flare of Fortitude",
+   "rareza": "rare",
+   "precio_normal": 16.04,
+   "precio_foil": 41.69,
+   "tcgplayer_id": 552387
+  },
+  "mh3:322": {
+   "nombre": "Ocelot Pride",
+   "rareza": "mythic",
+   "precio_normal": 77.02,
+   "precio_foil": 170.76,
+   "tcgplayer_id": 552900
+  },
+  "mh3:323": {
+   "nombre": "Orim's Chant",
+   "rareza": "rare",
+   "precio_normal": 10.66,
+   "precio_foil": 37.9,
+   "tcgplayer_id": 548582
+  },
+  "mh3:324": {
+   "nombre": "White Orchid Phantom",
+   "rareza": "rare",
+   "precio_normal": 2.69,
+   "precio_foil": 7.05,
+   "tcgplayer_id": 552389
+  },
+  "mh3:325": {
+   "nombre": "Wrath of the Skies",
+   "rareza": "rare",
+   "precio_normal": 7.36,
+   "precio_foil": 24.8,
+   "tcgplayer_id": 552615
+  },
+  "mh3:326": {
+   "nombre": "Flare of Denial",
+   "rareza": "rare",
+   "precio_normal": 10.54,
+   "precio_foil": 35.18,
+   "tcgplayer_id": 548636
+  },
+  "mh3:327": {
+   "nombre": "Strix Serenade",
+   "rareza": "rare",
+   "precio_normal": 4.06,
+   "precio_foil": 13.45,
+   "tcgplayer_id": 552622
+  },
+  "mh3:328": {
+   "nombre": "Ugin's Binding",
+   "rareza": "mythic",
+   "precio_normal": 2.35,
+   "precio_foil": 6.33,
+   "tcgplayer_id": 553196
+  },
+  "mh3:329": {
+   "nombre": "Volatile Stormdrake",
+   "rareza": "rare",
+   "precio_normal": 5.29,
+   "precio_foil": 24.45,
+   "tcgplayer_id": 552364
+  },
+  "mh3:33": {
+   "nombre": "Jolted Awake",
+   "rareza": "common",
+   "precio_normal": 0.19,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 553147
+  },
+  "mh3:330": {
+   "nombre": "Chthonian Nightmare",
+   "rareza": "rare",
+   "precio_normal": 5.77,
+   "precio_foil": 14.95,
+   "tcgplayer_id": 548619
+  },
+  "mh3:331": {
+   "nombre": "Flare of Malice",
+   "rareza": "rare",
+   "precio_normal": 7.0,
+   "precio_foil": 12.88,
+   "tcgplayer_id": 552303
+  },
+  "mh3:332": {
+   "nombre": "Warren Soultrader",
+   "rareza": "rare",
+   "precio_normal": 29.28,
+   "precio_foil": 70.59,
+   "tcgplayer_id": 552652
+  },
+  "mh3:333": {
+   "nombre": "Flare of Duplication",
+   "rareza": "rare",
+   "precio_normal": 6.92,
+   "precio_foil": 39.95,
+   "tcgplayer_id": 552285
+  },
+  "mh3:334": {
+   "nombre": "Party Thrasher",
+   "rareza": "rare",
+   "precio_normal": 3.73,
+   "precio_foil": 9.8,
+   "tcgplayer_id": 552886
+  },
+  "mh3:335": {
+   "nombre": "Powerbalance",
+   "rareza": "rare",
+   "precio_normal": 0.65,
+   "precio_foil": 1.91,
+   "tcgplayer_id": 552342
+  },
+  "mh3:336": {
+   "nombre": "Wheel of Potential",
+   "rareza": "rare",
+   "precio_normal": 0.44,
+   "precio_foil": 1.9,
+   "tcgplayer_id": 552355
+  },
+  "mh3:337": {
+   "nombre": "Birthing Ritual",
+   "rareza": "mythic",
+   "precio_normal": 6.2,
+   "precio_foil": 14.04,
+   "tcgplayer_id": 552893
+  },
+  "mh3:338": {
+   "nombre": "Flare of Cultivation",
+   "rareza": "rare",
+   "precio_normal": 3.79,
+   "precio_foil": 10.61,
+   "tcgplayer_id": 541302
+  },
+  "mh3:339": {
+   "nombre": "Primal Prayers",
+   "rareza": "rare",
+   "precio_normal": 0.48,
+   "precio_foil": 1.51,
+   "tcgplayer_id": 552891
+  },
+  "mh3:34": {
+   "nombre": "Mandibular Kite",
+   "rareza": "common",
+   "precio_normal": 0.22,
+   "precio_foil": 0.24,
+   "tcgplayer_id": 552735
+  },
+  "mh3:340": {
+   "nombre": "Sowing Mycospawn",
+   "rareza": "rare",
+   "precio_normal": 3.7,
+   "precio_foil": 9.12,
+   "tcgplayer_id": 552707
+  },
+  "mh3:341": {
+   "nombre": "Springheart Nantuko",
+   "rareza": "rare",
+   "precio_normal": 7.9,
+   "precio_foil": 21.9,
+   "tcgplayer_id": 552883
+  },
+  "mh3:342": {
+   "nombre": "Abstruse Appropriation",
+   "rareza": "rare",
+   "precio_normal": 0.63,
+   "precio_foil": 2.52,
+   "tcgplayer_id": 552882
+  },
+  "mh3:343": {
+   "nombre": "Kaalia of the Vast",
+   "rareza": "mythic",
+   "precio_normal": 56.71,
+   "precio_foil": 152.68,
+   "tcgplayer_id": 552351
+  },
+  "mh3:344": {
+   "nombre": "Psychic Frog",
+   "rareza": "rare",
+   "precio_normal": 17.55,
+   "precio_foil": 41.98,
+   "tcgplayer_id": 541283
+  },
+  "mh3:345": {
+   "nombre": "Emerald Medallion",
+   "rareza": "rare",
+   "precio_normal": 11.74,
+   "precio_foil": 18.42,
+   "tcgplayer_id": 552367
+  },
+  "mh3:346": {
+   "nombre": "Jet Medallion",
+   "rareza": "rare",
+   "precio_normal": 24.25,
+   "precio_foil": 47.95,
+   "tcgplayer_id": 552282
+  },
+  "mh3:347": {
+   "nombre": "Pearl Medallion",
+   "rareza": "rare",
+   "precio_normal": 15.1,
+   "precio_foil": 36.82,
+   "tcgplayer_id": 552347
+  },
+  "mh3:348": {
+   "nombre": "Ruby Medallion",
+   "rareza": "rare",
+   "precio_normal": 21.42,
+   "precio_foil": 46.88,
+   "tcgplayer_id": 552348
+  },
+  "mh3:349": {
+   "nombre": "Sapphire Medallion",
+   "rareza": "rare",
+   "precio_normal": 16.09,
+   "precio_foil": 30.57,
+   "tcgplayer_id": 552383
+  },
+  "mh3:35": {
+   "nombre": "Metastatic Evangel",
+   "rareza": "uncommon",
+   "precio_normal": 0.37,
+   "precio_foil": 2.27,
+   "tcgplayer_id": 552831
+  },
+  "mh3:350": {
+   "nombre": "Archway of Innovation",
+   "rareza": "rare",
+   "precio_normal": 2.72,
+   "precio_foil": 5.24,
+   "tcgplayer_id": 552898
+  },
+  "mh3:351": {
+   "nombre": "Arena of Glory",
+   "rareza": "rare",
+   "precio_normal": 11.46,
+   "precio_foil": 31.02,
+   "tcgplayer_id": 553266
+  },
+  "mh3:352": {
+   "nombre": "Bloodstained Mire",
+   "rareza": "rare",
+   "precio_normal": 35.53,
+   "precio_foil": 71.91,
+   "tcgplayer_id": 541296
+  },
+  "mh3:353": {
+   "nombre": "Flooded Strand",
+   "rareza": "rare",
+   "precio_normal": 28.98,
+   "precio_foil": 76.24,
+   "tcgplayer_id": 541295
+  },
+  "mh3:354": {
+   "nombre": "Monumental Henge",
+   "rareza": "rare",
+   "precio_normal": 1.8,
+   "precio_foil": 3.05,
+   "tcgplayer_id": 552890
+  },
+  "mh3:355": {
+   "nombre": "Phyrexian Tower",
+   "rareza": "mythic",
+   "precio_normal": 44.48,
+   "precio_foil": 92.36,
+   "tcgplayer_id": 552889
+  },
+  "mh3:356": {
+   "nombre": "Polluted Delta",
+   "rareza": "rare",
+   "precio_normal": 38.8,
+   "precio_foil": 85.04,
+   "tcgplayer_id": 541301
+  },
+  "mh3:357": {
+   "nombre": "Shifting Woodland",
+   "rareza": "rare",
+   "precio_normal": 9.28,
+   "precio_foil": 30.91,
+   "tcgplayer_id": 552708
+  },
+  "mh3:358": {
+   "nombre": "Spymaster's Vault",
+   "rareza": "rare",
+   "precio_normal": 3.66,
+   "precio_foil": 7.7,
+   "tcgplayer_id": 552661
+  },
+  "mh3:359": {
+   "nombre": "Ugin's Labyrinth",
+   "rareza": "mythic",
+   "precio_normal": 17.05,
+   "precio_foil": 35.88,
+   "tcgplayer_id": 548628
+  },
+  "mh3:36": {
+   "nombre": "Muster the Departed",
+   "rareza": "uncommon",
+   "precio_normal": 0.27,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 553153
+  },
+  "mh3:360": {
+   "nombre": "Windswept Heath",
+   "rareza": "rare",
+   "precio_normal": 23.99,
+   "precio_foil": 50.77,
+   "tcgplayer_id": 541306
+  },
+  "mh3:361": {
+   "nombre": "Wooded Foothills",
+   "rareza": "rare",
+   "precio_normal": 29.53,
+   "precio_foil": 72.09,
+   "tcgplayer_id": 541298
+  },
+  "mh3:362": {
+   "nombre": "Herigast, Erupting Nullkite",
+   "rareza": "mythic",
+   "precio_normal": 1.76,
+   "precio_foil": 5.6,
+   "tcgplayer_id": 548616
+  },
+  "mh3:363": {
+   "nombre": "Pearl-Ear, Imperial Advisor",
+   "rareza": "rare",
+   "precio_normal": 0.81,
+   "precio_foil": 2.35,
+   "tcgplayer_id": 552372
+  },
+  "mh3:364": {
+   "nombre": "Phelia, Exuberant Shepherd",
+   "rareza": "rare",
+   "precio_normal": 8.38,
+   "precio_foil": 22.47,
+   "tcgplayer_id": 548610
+  },
+  "mh3:365": {
+   "nombre": "K'rrik, Son of Yawgmoth",
+   "rareza": "rare",
+   "precio_normal": 1.84,
+   "precio_foil": 3.45,
+   "tcgplayer_id": 552380
+  },
+  "mh3:366": {
+   "nombre": "Shilgengar, Sire of Famine",
+   "rareza": "rare",
+   "precio_normal": 0.37,
+   "precio_foil": 0.8,
+   "tcgplayer_id": 552995
+  },
+  "mh3:367": {
+   "nombre": "Ashling, Flame Dancer",
+   "rareza": "mythic",
+   "precio_normal": 10.68,
+   "precio_foil": 37.97,
+   "tcgplayer_id": 552895
+  },
+  "mh3:368": {
+   "nombre": "Laelia, the Blade Reforged",
+   "rareza": "rare",
+   "precio_normal": 2.39,
+   "precio_foil": 4.58,
+   "tcgplayer_id": 541300
+  },
+  "mh3:369": {
+   "nombre": "Eladamri, Korvecdal",
+   "rareza": "mythic",
+   "precio_normal": 16.21,
+   "precio_foil": 22.31,
+   "tcgplayer_id": 552369
+  },
+  "mh3:37": {
+   "nombre": "Nyxborn Unicorn",
+   "rareza": "common",
+   "precio_normal": 0.16,
+   "precio_foil": 0.25,
+   "tcgplayer_id": 552824
+  },
+  "mh3:370": {
+   "nombre": "Six",
+   "rareza": "rare",
+   "precio_normal": 11.17,
+   "precio_foil": 27.58,
+   "tcgplayer_id": 552345
+  },
+  "mh3:371": {
+   "nombre": "Arna Kennerüd, Skycaptain",
+   "rareza": "mythic",
+   "precio_normal": 1.11,
+   "precio_foil": 4.81,
+   "tcgplayer_id": 553798
+  },
+  "mh3:372": {
+   "nombre": "Breya, Etherium Shaper",
+   "rareza": "mythic",
+   "precio_normal": 3.21,
+   "precio_foil": 8.65,
+   "tcgplayer_id": 552357
+  },
+  "mh3:373": {
+   "nombre": "Genku, Future Shaper",
+   "rareza": "rare",
+   "precio_normal": 0.31,
+   "precio_foil": 0.44,
+   "tcgplayer_id": 552388
+  },
+  "mh3:374": {
+   "nombre": "Imskir Iron-Eater",
+   "rareza": "rare",
+   "precio_normal": 0.47,
+   "precio_foil": 2.31,
+   "tcgplayer_id": 552705
+  },
+  "mh3:375": {
+   "nombre": "Kaalia of the Vast",
+   "rareza": "mythic",
+   "precio_normal": 17.63,
+   "precio_foil": 28.34,
+   "tcgplayer_id": 552346
+  },
+  "mh3:376": {
+   "nombre": "Kudo, King Among Bears",
+   "rareza": "rare",
+   "precio_normal": 0.72,
+   "precio_foil": 2.17,
+   "tcgplayer_id": 548632
+  },
+  "mh3:377": {
+   "nombre": "Nadu, Winged Wisdom",
+   "rareza": "rare",
+   "precio_normal": 0.47,
+   "precio_foil": 1.6,
+   "tcgplayer_id": 552874
+  },
+  "mh3:378": {
+   "nombre": "The Necrobloom",
+   "rareza": "rare",
+   "precio_normal": 1.29,
+   "precio_foil": 6.64,
+   "tcgplayer_id": 552464
+  },
+  "mh3:379": {
+   "nombre": "Phlage, Titan of Fire's Fury",
+   "rareza": "mythic",
+   "precio_normal": 3.93,
+   "precio_foil": 16.77,
+   "tcgplayer_id": 552643
+  },
+  "mh3:38": {
+   "nombre": "Ocelot Pride",
+   "rareza": "mythic",
+   "precio_normal": 41.81,
+   "precio_foil": 46.3,
+   "tcgplayer_id": 552863
+  },
+  "mh3:380": {
+   "nombre": "Rosheen, Roaring Prophet",
+   "rareza": "rare",
+   "precio_normal": 0.32,
+   "precio_foil": 0.41,
+   "tcgplayer_id": 552706
+  },
+  "mh3:381": {
+   "nombre": "Emrakul, the World Anew",
+   "rareza": "mythic",
+   "precio_normal": 28.91,
+   "precio_foil": 72.87,
+   "tcgplayer_id": 541281
+  },
+  "mh3:382": {
+   "nombre": "Kozilek, the Broken Reality",
+   "rareza": "mythic",
+   "precio_normal": 12.04,
+   "precio_foil": 39.18,
+   "tcgplayer_id": 552384
+  },
+  "mh3:383": {
+   "nombre": "Ulamog, the Defiler",
+   "rareza": "mythic",
+   "precio_normal": 46.16,
+   "precio_foil": 115.71,
+   "tcgplayer_id": 552363
+  },
+  "mh3:384": {
+   "nombre": "Emrakul, the World Anew",
+   "rareza": "mythic",
+   "precio_normal": 7.21,
+   "precio_foil": 10.99,
+   "tcgplayer_id": 541286
+  },
+  "mh3:385": {
+   "nombre": "It That Heralds the End",
+   "rareza": "uncommon",
+   "precio_normal": 0.39,
+   "precio_foil": 0.44,
+   "tcgplayer_id": 548624
+  },
+  "mh3:386": {
+   "nombre": "Kozilek, the Broken Reality",
+   "rareza": "mythic",
+   "precio_normal": 5.22,
+   "precio_foil": 10.07,
+   "tcgplayer_id": 552385
+  },
+  "mh3:387": {
+   "nombre": "Null Elemental Blast",
+   "rareza": "uncommon",
+   "precio_normal": 0.49,
+   "precio_foil": 0.67,
+   "tcgplayer_id": 548617
+  },
+  "mh3:388": {
+   "nombre": "Nulldrifter",
+   "rareza": "rare",
+   "precio_normal": 1.17,
+   "precio_foil": 3.62,
+   "tcgplayer_id": 548634
+  },
+  "mh3:389": {
+   "nombre": "Ulamog, the Defiler",
+   "rareza": "mythic",
+   "precio_normal": 19.6,
+   "precio_foil": 31.55,
+   "tcgplayer_id": 552373
+  },
+  "mh3:39": {
+   "nombre": "Pearl-Ear, Imperial Advisor",
+   "rareza": "rare",
+   "precio_normal": 0.31,
+   "precio_foil": 0.45,
+   "tcgplayer_id": 552296
+  },
+  "mh3:390": {
+   "nombre": "Charitable Levy",
+   "rareza": "uncommon",
+   "precio_normal": 0.25,
+   "precio_foil": 0.3,
+   "tcgplayer_id": 552743
+  },
+  "mh3:391": {
+   "nombre": "Flare of Fortitude",
+   "rareza": "rare",
+   "precio_normal": 5.72,
+   "precio_foil": 10.61,
+   "tcgplayer_id": 552368
+  },
+  "mh3:392": {
+   "nombre": "Jolted Awake",
+   "rareza": "common",
+   "precio_normal": 0.19,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 553150
+  },
+  "mh3:393": {
+   "nombre": "Metastatic Evangel",
+   "rareza": "uncommon",
+   "precio_normal": 0.76,
+   "precio_foil": 0.83,
+   "tcgplayer_id": 552877
+  },
+  "mh3:394": {
+   "nombre": "Ocelot Pride",
+   "rareza": "mythic",
+   "precio_normal": 46.95,
+   "precio_foil": 82.28,
+   "tcgplayer_id": 552887
+  },
+  "mh3:395": {
+   "nombre": "Recruiter of the Guard",
+   "rareza": "mythic",
+   "precio_normal": 7.12,
+   "precio_foil": 15.39,
+   "tcgplayer_id": 552884
+  },
+  "mh3:396": {
+   "nombre": "White Orchid Phantom",
+   "rareza": "rare",
+   "precio_normal": 1.32,
+   "precio_foil": 4.68,
+   "tcgplayer_id": 552362
+  },
+  "mh3:397": {
+   "nombre": "Wrath of the Skies",
+   "rareza": "rare",
+   "precio_normal": 6.31,
+   "precio_foil": 10.0,
+   "tcgplayer_id": 552616
+  },
+  "mh3:398": {
+   "nombre": "Aether Spike",
+   "rareza": "common",
+   "precio_normal": 0.24,
+   "precio_foil": 0.24,
+   "tcgplayer_id": 553169
+  },
+  "mh3:399": {
+   "nombre": "Brainsurge",
+   "rareza": "uncommon",
+   "precio_normal": 1.12,
+   "precio_foil": 1.26,
+   "tcgplayer_id": 552350
+  },
+  "mh3:4": {
+   "nombre": "Echoes of Eternity",
+   "rareza": "rare",
+   "precio_normal": 2.39,
+   "precio_foil": 2.51,
+   "tcgplayer_id": 552173
+  },
+  "mh3:40": {
+   "nombre": "Phelia, Exuberant Shepherd",
+   "rareza": "rare",
+   "precio_normal": 5.52,
+   "precio_foil": 7.29,
+   "tcgplayer_id": 548602
+  },
+  "mh3:400": {
+   "nombre": "Flare of Denial",
+   "rareza": "rare",
+   "precio_normal": 6.41,
+   "precio_foil": 21.52,
+   "tcgplayer_id": 548614
+  },
+  "mh3:401": {
+   "nombre": "Kappa Cannoneer",
+   "rareza": "rare",
+   "precio_normal": 1.83,
+   "precio_foil": 8.75,
+   "tcgplayer_id": 548618
+  },
+  "mh3:402": {
+   "nombre": "Shadow of the Second Sun",
+   "rareza": "mythic",
+   "precio_normal": 1.18,
+   "precio_foil": 5.2,
+   "tcgplayer_id": 552381
+  },
+  "mh3:403": {
+   "nombre": "Tune the Narrative",
+   "rareza": "common",
+   "precio_normal": 0.29,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 552657
+  },
+  "mh3:404": {
+   "nombre": "Volatile Stormdrake",
+   "rareza": "rare",
+   "precio_normal": 1.38,
+   "precio_foil": 7.48,
+   "tcgplayer_id": 552379
+  },
+  "mh3:405": {
+   "nombre": "Accursed Marauder",
+   "rareza": "common",
+   "precio_normal": 1.79,
+   "precio_foil": 2.02,
+   "tcgplayer_id": 553206
+  },
+  "mh3:406": {
+   "nombre": "Chthonian Nightmare",
+   "rareza": "rare",
+   "precio_normal": 1.63,
+   "precio_foil": 5.32,
+   "tcgplayer_id": 548633
+  },
+  "mh3:407": {
+   "nombre": "Consuming Corruption",
+   "rareza": "uncommon",
+   "precio_normal": 0.34,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 552896
+  },
+  "mh3:408": {
+   "nombre": "Flare of Malice",
+   "rareza": "rare",
+   "precio_normal": 5.3,
+   "precio_foil": 13.22,
+   "tcgplayer_id": 552343
+  },
+  "mh3:409": {
+   "nombre": "Grim Servant",
+   "rareza": "uncommon",
+   "precio_normal": 0.33,
+   "precio_foil": 0.38,
+   "tcgplayer_id": 552378
+  },
+  "mh3:41": {
+   "nombre": "Proud Pack-Rhino",
+   "rareza": "uncommon",
+   "precio_normal": 0.24,
+   "precio_foil": 0.28,
+   "tcgplayer_id": 553156
+  },
+  "mh3:410": {
+   "nombre": "Marionette Apprentice",
+   "rareza": "uncommon",
+   "precio_normal": 3.42,
+   "precio_foil": 4.5,
+   "tcgplayer_id": 552662
+  },
+  "mh3:411": {
+   "nombre": "Necrodominance",
+   "rareza": "mythic",
+   "precio_normal": 5.71,
+   "precio_foil": 27.03,
+   "tcgplayer_id": 552892
+  },
+  "mh3:412": {
+   "nombre": "Toxic Deluge",
+   "rareza": "rare",
+   "precio_normal": 7.59,
+   "precio_foil": 17.08,
+   "tcgplayer_id": 552732
+  },
+  "mh3:413": {
+   "nombre": "Victimize",
+   "rareza": "uncommon",
+   "precio_normal": 1.37,
+   "precio_foil": 1.61,
+   "tcgplayer_id": 552742
+  },
+  "mh3:414": {
+   "nombre": "Warren Soultrader",
+   "rareza": "rare",
+   "precio_normal": 23.89,
+   "precio_foil": 54.37,
+   "tcgplayer_id": 552660
+  },
+  "mh3:415": {
+   "nombre": "Ashling, Flame Dancer",
+   "rareza": "mythic",
+   "precio_normal": 6.56,
+   "precio_foil": 15.21,
+   "tcgplayer_id": 552899
+  },
+  "mh3:416": {
+   "nombre": "Flare of Duplication",
+   "rareza": "rare",
+   "precio_normal": 3.42,
+   "precio_foil": 20.42,
+   "tcgplayer_id": 552371
+  },
+  "mh3:417": {
+   "nombre": "Galvanic Discharge",
+   "rareza": "common",
+   "precio_normal": 0.4,
+   "precio_foil": 0.39,
+   "tcgplayer_id": 552670
+  },
+  "mh3:418": {
+   "nombre": "Meltdown",
+   "rareza": "uncommon",
+   "precio_normal": 0.46,
+   "precio_foil": 0.85,
+   "tcgplayer_id": 548630
+  },
+  "mh3:419": {
+   "nombre": "Party Thrasher",
+   "rareza": "rare",
+   "precio_normal": 0.77,
+   "precio_foil": 3.18,
+   "tcgplayer_id": 552888
+  },
+  "mh3:42": {
+   "nombre": "Rosecot Knight",
+   "rareza": "common",
+   "precio_normal": 0.1,
+   "precio_foil": 0.18,
+   "tcgplayer_id": 553158
+  },
+  "mh3:420": {
+   "nombre": "Skoa, Embermage",
+   "rareza": "common",
+   "precio_normal": 0.06,
+   "precio_foil": 0.18,
+   "tcgplayer_id": 552668
+  },
+  "mh3:421": {
+   "nombre": "Unstable Amulet",
+   "rareza": "uncommon",
+   "precio_normal": 0.32,
+   "precio_foil": 0.34,
+   "tcgplayer_id": 552667
+  },
+  "mh3:422": {
+   "nombre": "Wheel of Potential",
+   "rareza": "rare",
+   "precio_normal": 0.3,
+   "precio_foil": 0.43,
+   "tcgplayer_id": 552366
+  },
+  "mh3:423": {
+   "nombre": "Eladamri, Korvecdal",
+   "rareza": "mythic",
+   "precio_normal": 10.58,
+   "precio_foil": 18.08,
+   "tcgplayer_id": 552365
+  },
+  "mh3:424": {
+   "nombre": "Evolution Witness",
+   "rareza": "common",
+   "precio_normal": 0.7,
+   "precio_foil": 0.67,
+   "tcgplayer_id": 552354
+  },
+  "mh3:425": {
+   "nombre": "Flare of Cultivation",
+   "rareza": "rare",
+   "precio_normal": 1.27,
+   "precio_foil": 3.08,
+   "tcgplayer_id": 541293
+  },
+  "mh3:426": {
+   "nombre": "Lion Umbra",
+   "rareza": "uncommon",
+   "precio_normal": 0.24,
+   "precio_foil": 0.34,
+   "tcgplayer_id": 553326
+  },
+  "mh3:427": {
+   "nombre": "Monstrous Vortex",
+   "rareza": "uncommon",
+   "precio_normal": 0.36,
+   "precio_foil": 0.34,
+   "tcgplayer_id": 552885
+  },
+  "mh3:428": {
+   "nombre": "Priest of Titania",
+   "rareza": "uncommon",
+   "precio_normal": 2.0,
+   "precio_foil": 2.48,
+   "tcgplayer_id": 541287
+  },
+  "mh3:429": {
+   "nombre": "Primal Prayers",
+   "rareza": "rare",
+   "precio_normal": 0.28,
+   "precio_foil": 0.43,
+   "tcgplayer_id": 552894
+  },
+  "mh3:43": {
+   "nombre": "Solstice Zealot",
+   "rareza": "common",
+   "precio_normal": 0.08,
+   "precio_foil": 0.2,
+   "tcgplayer_id": 553161
+  },
+  "mh3:430": {
+   "nombre": "Six",
+   "rareza": "rare",
+   "precio_normal": 6.07,
+   "precio_foil": 12.65,
+   "tcgplayer_id": 552386
+  },
+  "mh3:431": {
+   "nombre": "Imskir Iron-Eater",
+   "rareza": "rare",
+   "precio_normal": 0.32,
+   "precio_foil": 0.56,
+   "tcgplayer_id": 552717
+  },
+  "mh3:432": {
+   "nombre": "Kudo, King Among Bears",
+   "rareza": "rare",
+   "precio_normal": 0.4,
+   "precio_foil": 0.91,
+   "tcgplayer_id": 548622
+  },
+  "mh3:433": {
+   "nombre": "Psychic Frog",
+   "rareza": "rare",
+   "precio_normal": 8.44,
+   "precio_foil": 21.41,
+   "tcgplayer_id": 541284
+  },
+  "mh3:434": {
+   "nombre": "Rosheen, Roaring Prophet",
+   "rareza": "rare",
+   "precio_normal": 0.23,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 552739
+  },
+  "mh3:435": {
+   "nombre": "Bloodstained Mire",
+   "rareza": "rare",
+   "precio_normal": 24.91,
+   "precio_foil": 79.29,
+   "tcgplayer_id": 541297
+  },
+  "mh3:436": {
+   "nombre": "Flooded Strand",
+   "rareza": "rare",
+   "precio_normal": 26.9,
+   "precio_foil": 112.21,
+   "tcgplayer_id": 541285
+  },
+  "mh3:437": {
+   "nombre": "Nesting Grounds",
+   "rareza": "uncommon",
+   "precio_normal": 0.28,
+   "precio_foil": 0.34,
+   "tcgplayer_id": 553300
+  },
+  "mh3:438": {
+   "nombre": "Polluted Delta",
+   "rareza": "rare",
+   "precio_normal": 30.85,
+   "precio_foil": 133.45,
+   "tcgplayer_id": 541307
+  },
+  "mh3:439": {
+   "nombre": "Snow-Covered Wastes",
+   "rareza": "uncommon",
+   "precio_normal": 0.67,
+   "precio_foil": 2.09,
+   "tcgplayer_id": 548384
+  },
+  "mh3:44": {
+   "nombre": "Static Prison",
+   "rareza": "uncommon",
+   "precio_normal": 0.3,
+   "precio_foil": 0.39,
+   "tcgplayer_id": 552849
+  },
+  "mh3:440": {
+   "nombre": "Windswept Heath",
+   "rareza": "rare",
+   "precio_normal": 17.87,
+   "precio_foil": 86.2,
+   "tcgplayer_id": 541305
+  },
+  "mh3:441": {
+   "nombre": "Wooded Foothills",
+   "rareza": "rare",
+   "precio_normal": 29.16,
+   "precio_foil": 95.41,
+   "tcgplayer_id": 541291
+  },
+  "mh3:442": {
+   "nombre": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+   "rareza": "mythic",
+   "precio_normal": 14.03,
+   "precio_foil": 23.0,
+   "tcgplayer_id": 541288
+  },
+  "mh3:443": {
+   "nombre": "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
+   "rareza": "mythic",
+   "precio_normal": 28.8,
+   "precio_foil": 42.95,
+   "tcgplayer_id": 552353
+  },
+  "mh3:444": {
+   "nombre": "Sorin of House Markov // Sorin, Ravenous Neonate",
+   "rareza": "mythic",
+   "precio_normal": 14.05,
+   "precio_foil": 16.94,
+   "tcgplayer_id": 552375
+  },
+  "mh3:445": {
+   "nombre": "Ral, Monsoon Mage // Ral, Leyline Prodigy",
+   "rareza": "mythic",
+   "precio_normal": 14.23,
+   "precio_foil": 29.36,
+   "tcgplayer_id": 552360
+  },
+  "mh3:446": {
+   "nombre": "Grist, Voracious Larva // Grist, the Plague Swarm",
+   "rareza": "mythic",
+   "precio_normal": 4.88,
+   "precio_foil": 5.24,
+   "tcgplayer_id": 552352
+  },
+  "mh3:45": {
+   "nombre": "Thraben Charm",
+   "rareza": "common",
+   "precio_normal": 0.35,
+   "precio_foil": 1.07,
+   "tcgplayer_id": 552284
+  },
+  "mh3:46": {
+   "nombre": "Voltstorm Angel",
+   "rareza": "uncommon",
+   "precio_normal": 0.19,
+   "precio_foil": 0.28,
+   "tcgplayer_id": 552613
+  },
+  "mh3:47": {
+   "nombre": "White Orchid Phantom",
+   "rareza": "rare",
+   "precio_normal": 0.3,
+   "precio_foil": 0.51,
+   "tcgplayer_id": 552269
+  },
+  "mh3:48": {
+   "nombre": "Wing It",
+   "rareza": "common",
+   "precio_normal": 0.15,
+   "precio_foil": 0.26,
+   "tcgplayer_id": 553166
+  },
+  "mh3:49": {
+   "nombre": "Wrath of the Skies",
+   "rareza": "rare",
+   "precio_normal": 2.81,
+   "precio_foil": 3.25,
+   "tcgplayer_id": 552614
+  },
+  "mh3:5": {
+   "nombre": "Eldrazi Ravager",
+   "rareza": "uncommon",
+   "precio_normal": 0.18,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 552638
+  },
+  "mh3:50": {
+   "nombre": "Aether Spike",
+   "rareza": "common",
+   "precio_normal": 0.23,
+   "precio_foil": 0.29,
+   "tcgplayer_id": 553168
+  },
+  "mh3:51": {
+   "nombre": "Amphibian Downpour",
+   "rareza": "rare",
+   "precio_normal": 1.74,
+   "precio_foil": 2.11,
+   "tcgplayer_id": 552794
+  },
+  "mh3:52": {
+   "nombre": "Bespoke Battlewagon",
+   "rareza": "uncommon",
+   "precio_normal": 0.22,
+   "precio_foil": 0.33,
+   "tcgplayer_id": 553170
+  },
+  "mh3:53": {
+   "nombre": "Brainsurge",
+   "rareza": "uncommon",
+   "precio_normal": 0.36,
+   "precio_foil": 1.15,
+   "tcgplayer_id": 552298
+  },
+  "mh3:54": {
+   "nombre": "Consign to Memory",
+   "rareza": "uncommon",
+   "precio_normal": 3.19,
+   "precio_foil": 5.38,
+   "tcgplayer_id": 552840
+  },
+  "mh3:55": {
+   "nombre": "Copycrook",
+   "rareza": "uncommon",
+   "precio_normal": 0.24,
+   "precio_foil": 0.34,
+   "tcgplayer_id": 552725
+  },
+  "mh3:56": {
+   "nombre": "Corrupted Shapeshifter",
+   "rareza": "common",
+   "precio_normal": 0.23,
+   "precio_foil": 0.29,
+   "tcgplayer_id": 551668
+  },
+  "mh3:57": {
+   "nombre": "Deem Inferior",
+   "rareza": "common",
+   "precio_normal": 0.21,
+   "precio_foil": 0.22,
+   "tcgplayer_id": 553172
+  },
+  "mh3:58": {
+   "nombre": "Depth Defiler",
+   "rareza": "uncommon",
+   "precio_normal": 0.17,
+   "precio_foil": 0.3,
+   "tcgplayer_id": 552816
+  },
+  "mh3:59": {
+   "nombre": "Dreamtide Whale",
+   "rareza": "rare",
+   "precio_normal": 5.91,
+   "precio_foil": 4.67,
+   "tcgplayer_id": 552815
+  },
+  "mh3:6": {
+   "nombre": "Emrakul, the World Anew",
+   "rareza": "mythic",
+   "precio_normal": 6.26,
+   "precio_foil": 6.58,
+   "tcgplayer_id": 541268
+  },
+  "mh3:60": {
+   "nombre": "Electrozoa",
+   "rareza": "common",
+   "precio_normal": 0.07,
+   "precio_foil": 0.18,
+   "tcgplayer_id": 553173
+  },
+  "mh3:61": {
+   "nombre": "Emrakul's Messenger",
+   "rareza": "uncommon",
+   "precio_normal": 0.29,
+   "precio_foil": 0.63,
+   "tcgplayer_id": 552822
+  },
+  "mh3:62": {
+   "nombre": "Flare of Denial",
+   "rareza": "rare",
+   "precio_normal": 3.76,
+   "precio_foil": 4.67,
+   "tcgplayer_id": 548596
+  },
+  "mh3:63": {
+   "nombre": "Harbinger of the Seas",
+   "rareza": "rare",
+   "precio_normal": 1.26,
+   "precio_foil": 2.59,
+   "tcgplayer_id": 552618
+  },
+  "mh3:64": {
+   "nombre": "Hope-Ender Coatl",
+   "rareza": "uncommon",
+   "precio_normal": 0.2,
+   "precio_foil": 0.32,
+   "tcgplayer_id": 553175
+  },
+  "mh3:65": {
+   "nombre": "Kozilek's Unsealing",
+   "rareza": "uncommon",
+   "precio_normal": 0.33,
+   "precio_foil": 0.38,
+   "tcgplayer_id": 551670
+  },
+  "mh3:66": {
+   "nombre": "Petrifying Meddler",
+   "rareza": "common",
+   "precio_normal": 0.1,
+   "precio_foil": 0.21,
+   "tcgplayer_id": 552177
+  },
+  "mh3:67": {
+   "nombre": "Roil Cartographer",
+   "rareza": "uncommon",
+   "precio_normal": 0.26,
+   "precio_foil": 0.35,
+   "tcgplayer_id": 552620
+  },
+  "mh3:68": {
+   "nombre": "Sage of the Unknowable",
+   "rareza": "common",
+   "precio_normal": 0.09,
+   "precio_foil": 0.23,
+   "tcgplayer_id": 553188
+  },
+  "mh3:69": {
+   "nombre": "Serum Visionary",
+   "rareza": "common",
+   "precio_normal": 0.19,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 552275
+  },
+  "mh3:7": {
+   "nombre": "Glaring Fleshraker",
+   "rareza": "uncommon",
+   "precio_normal": 1.79,
+   "precio_foil": 4.39,
+   "tcgplayer_id": 552821
+  },
+  "mh3:70": {
+   "nombre": "Shadow of the Second Sun",
+   "rareza": "mythic",
+   "precio_normal": 1.09,
+   "precio_foil": 1.73,
+   "tcgplayer_id": 552271
+  },
+  "mh3:71": {
+   "nombre": "Strix Serenade",
+   "rareza": "rare",
+   "precio_normal": 2.4,
+   "precio_foil": 2.67,
+   "tcgplayer_id": 552621
+  },
+  "mh3:72": {
+   "nombre": "Tamiyo Meets the Story Circle",
+   "rareza": "uncommon",
+   "precio_normal": 0.14,
+   "precio_foil": 0.25,
+   "tcgplayer_id": 552653
+  },
+  "mh3:73": {
+   "nombre": "Tempest Harvester",
+   "rareza": "common",
+   "precio_normal": 0.17,
+   "precio_foil": 0.21,
+   "tcgplayer_id": 552654
+  },
+  "mh3:74": {
+   "nombre": "Triton Wavebreaker",
+   "rareza": "uncommon",
+   "precio_normal": 0.2,
+   "precio_foil": 0.3,
+   "tcgplayer_id": 552655
+  },
+  "mh3:75": {
+   "nombre": "Tune the Narrative",
+   "rareza": "common",
+   "precio_normal": 0.25,
+   "precio_foil": 0.3,
+   "tcgplayer_id": 552656
+  },
+  "mh3:76": {
+   "nombre": "Ugin's Binding",
+   "rareza": "mythic",
+   "precio_normal": 0.74,
+   "precio_foil": 1.06,
+   "tcgplayer_id": 553193
+  },
+  "mh3:77": {
+   "nombre": "Unfathomable Truths",
+   "rareza": "common",
+   "precio_normal": 0.15,
+   "precio_foil": 0.28,
+   "tcgplayer_id": 553200
+  },
+  "mh3:78": {
+   "nombre": "Utter Insignificance",
+   "rareza": "common",
+   "precio_normal": 0.22,
+   "precio_foil": 0.23,
+   "tcgplayer_id": 552855
+  },
+  "mh3:79": {
+   "nombre": "Volatile Stormdrake",
+   "rareza": "rare",
+   "precio_normal": 1.34,
+   "precio_foil": 1.49,
+   "tcgplayer_id": 552327
+  },
+  "mh3:8": {
+   "nombre": "Herigast, Erupting Nullkite",
+   "rareza": "mythic",
+   "precio_normal": 0.87,
+   "precio_foil": 1.27,
+   "tcgplayer_id": 548584
+  },
+  "mh3:80": {
+   "nombre": "Accursed Marauder",
+   "rareza": "common",
+   "precio_normal": 0.29,
+   "precio_foil": 2.72,
+   "tcgplayer_id": 553204
+  },
+  "mh3:81": {
+   "nombre": "Arcbound Condor",
+   "rareza": "uncommon",
+   "precio_normal": 0.21,
+   "precio_foil": 0.31,
+   "tcgplayer_id": 553209
+  },
+  "mh3:82": {
+   "nombre": "Breathe Your Last",
+   "rareza": "common",
+   "precio_normal": 0.19,
+   "precio_foil": 0.24,
+   "tcgplayer_id": 553214
+  },
+  "mh3:83": {
+   "nombre": "Chthonian Nightmare",
+   "rareza": "rare",
+   "precio_normal": 0.79,
+   "precio_foil": 0.98,
+   "tcgplayer_id": 548588
+  },
+  "mh3:84": {
+   "nombre": "Consuming Corruption",
+   "rareza": "uncommon",
+   "precio_normal": 0.27,
+   "precio_foil": 0.36,
+   "tcgplayer_id": 552837
+  },
+  "mh3:85": {
+   "nombre": "Crabomination",
+   "rareza": "rare",
+   "precio_normal": 0.3,
+   "precio_foil": 0.39,
+   "tcgplayer_id": 552737
+  },
+  "mh3:86": {
+   "nombre": "The Creation of Avacyn",
+   "rareza": "uncommon",
+   "precio_normal": 0.22,
+   "precio_foil": 0.33,
+   "tcgplayer_id": 552847
+  },
+  "mh3:87": {
+   "nombre": "Dreadmobile",
+   "rareza": "uncommon",
+   "precio_normal": 0.11,
+   "precio_foil": 0.21,
+   "tcgplayer_id": 552724
+  },
+  "mh3:88": {
+   "nombre": "Dreamdrinker Vampire",
+   "rareza": "common",
+   "precio_normal": 0.15,
+   "precio_foil": 0.26,
+   "tcgplayer_id": 553217
+  },
+  "mh3:89": {
+   "nombre": "Drossclaw",
+   "rareza": "common",
+   "precio_normal": 0.18,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 552719
+  },
+  "mh3:9": {
+   "nombre": "It That Heralds the End",
+   "rareza": "uncommon",
+   "precio_normal": 0.33,
+   "precio_foil": 0.37,
+   "tcgplayer_id": 548595
+  },
+  "mh3:90": {
+   "nombre": "Emperor of Bones",
+   "rareza": "rare",
+   "precio_normal": 1.39,
+   "precio_foil": 2.32,
+   "tcgplayer_id": 552630
+  },
+  "mh3:91": {
+   "nombre": "Etched Slith",
+   "rareza": "uncommon",
+   "precio_normal": 0.17,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 553220
+  },
+  "mh3:92": {
+   "nombre": "Etherium Pteramander",
+   "rareza": "uncommon",
+   "precio_normal": 0.19,
+   "precio_foil": 0.35,
+   "tcgplayer_id": 552838
+  },
+  "mh3:93": {
+   "nombre": "Eviscerator's Insight",
+   "rareza": "common",
+   "precio_normal": 0.25,
+   "precio_foil": 0.37,
+   "tcgplayer_id": 552853
+  },
+  "mh3:94": {
+   "nombre": "Fetid Gargantua",
+   "rareza": "common",
+   "precio_normal": 0.21,
+   "precio_foil": 0.27,
+   "tcgplayer_id": 553226
+  },
+  "mh3:95": {
+   "nombre": "Flare of Malice",
+   "rareza": "rare",
+   "precio_normal": 4.46,
+   "precio_foil": 5.15,
+   "tcgplayer_id": 552274
+  },
+  "mh3:96": {
+   "nombre": "Gravedig",
+   "rareza": "common",
+   "precio_normal": 0.17,
+   "precio_foil": 0.24,
+   "tcgplayer_id": 552851
+  },
+  "mh3:97": {
+   "nombre": "Grim Servant",
+   "rareza": "uncommon",
+   "precio_normal": 0.29,
+   "precio_foil": 0.34,
+   "tcgplayer_id": 552280
+  },
+  "mh3:98": {
+   "nombre": "Kami of Jealous Thirst",
+   "rareza": "common",
+   "precio_normal": 0.13,
+   "precio_foil": 0.19,
+   "tcgplayer_id": 552714
+  },
+  "mh3:99": {
+   "nombre": "Lethal Throwdown",
+   "rareza": "uncommon",
+   "precio_normal": 0.17,
+   "precio_foil": 0.24,
+   "tcgplayer_id": 552836
+  },
+  "spg:39": {
+   "nombre": "Thought-Knot Seer",
+   "rareza": "mythic",
+   "precio_normal": 6.43,
+   "precio_foil": 11.14,
+   "tcgplayer_id": 552392
+  },
+  "spg:40": {
+   "nombre": "Prismatic Ending",
+   "rareza": "mythic",
+   "precio_normal": 2.13,
+   "precio_foil": 8.22,
+   "tcgplayer_id": 552395
+  },
+  "spg:41": {
+   "nombre": "Dismember",
+   "rareza": "mythic",
+   "precio_normal": 6.53,
+   "precio_foil": 16.0,
+   "tcgplayer_id": 552394
+  },
+  "spg:42": {
+   "nombre": "Persist",
+   "rareza": "mythic",
+   "precio_normal": 4.63,
+   "precio_foil": 13.07,
+   "tcgplayer_id": 552398
+  },
+  "spg:43": {
+   "nombre": "Expressive Iteration",
+   "rareza": "mythic",
+   "precio_normal": 2.45,
+   "precio_foil": 9.99,
+   "tcgplayer_id": 552402
+  },
+  "spg:44": {
+   "nombre": "Solitude",
+   "rareza": "mythic",
+   "precio_normal": 36.71,
+   "precio_foil": 48.73,
+   "tcgplayer_id": 548637
+  },
+  "spg:45": {
+   "nombre": "Subtlety",
+   "rareza": "mythic",
+   "precio_normal": 12.93,
+   "precio_foil": 23.4,
+   "tcgplayer_id": 552401
+  },
+  "spg:46": {
+   "nombre": "Grief",
+   "rareza": "mythic",
+   "precio_normal": 4.3,
+   "precio_foil": 7.07,
+   "tcgplayer_id": 552400
+  },
+  "spg:47": {
+   "nombre": "Fury",
+   "rareza": "mythic",
+   "precio_normal": 2.94,
+   "precio_foil": 8.34,
+   "tcgplayer_id": 552396
+  },
+  "spg:48": {
+   "nombre": "Endurance",
+   "rareza": "mythic",
+   "precio_normal": 9.33,
+   "precio_foil": 28.04,
+   "tcgplayer_id": 552393
+  }
+ }
+}
