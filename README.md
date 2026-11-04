@@ -25,7 +25,7 @@ simulacion/
     parada_optima.py       regla de parada óptima de mirar un paso adelante
   motor.py                 ciclo de simulación y cierre de cuentas
   ejecutar.py              corrida de ejemplo
-web/                       interfaz (pendiente)
+web/                       interfaz en Next.js (ver web/README.md)
 ```
 
 ## Cómo reproducir
