@@ -2,5 +2,14 @@
  "nombre": "Modern Horizons 3, Play Booster",
  "codigo_set_base": "mh3",
  "numero_maximo_set_base": 303,
- "codigo_sobre_fuente": "mh3-play"
+ "codigo_sobre_fuente": "mh3-play",
+ "ranura_rara": {
+  "pozo": "new_rare_mythic",
+  "tasas_oficiales": {
+   "rara": 0.798,
+   "mitica": 0.130,
+   "variante": 0.072
+  },
+  "fuente": "Wizards of the Coast, Collecting Modern Horizons 3"
+ }
 }
