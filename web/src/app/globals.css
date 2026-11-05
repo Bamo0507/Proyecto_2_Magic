@@ -3,19 +3,44 @@
 @import "shadcn/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
+@custom-variant short (@media (min-width: 48rem) and (max-height: 820px));
 
 @theme inline {
+  --animate-rise-in: rise-in 520ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-card-land: card-land 600ms cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @keyframes rise-in {
+    from {
+      opacity: 0;
+      transform: translateY(1.25rem);
+    }
+  }
+
+  @keyframes card-land {
+    from {
+      opacity: 0;
+      transform: translateY(3.5rem) rotate(-5deg) scale(0.92);
+    }
+  }
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  --font-serif: Georgia, serif;
-  --font-heading: var(--font-geist-sans);
-  --tracking-tighter: calc(var(--tracking-normal) - 0.05em);
-  --tracking-tight: calc(var(--tracking-normal) - 0.025em);
-  --tracking-wide: calc(var(--tracking-normal) + 0.025em);
-  --tracking-wider: calc(var(--tracking-normal) + 0.05em);
-  --tracking-widest: calc(var(--tracking-normal) + 0.1em);
+  --font-sans: var(--font-alegreya-sans);
+  --font-serif: var(--font-alegreya);
+  --font-heading: var(--font-alegreya);
+  --font-display: var(--font-alegreya);
+  --shadow-card: var(--shadow-card);
+  --shadow-card-lifted: var(--shadow-card-lifted);
+  --shadow-chip: var(--shadow-chip);
+  --shadow-chip-pressed: var(--shadow-chip-pressed);
+  --shadow-edge: var(--shadow-edge);
+  --color-felt: var(--playmat-felt);
+  --color-felt-raised: var(--playmat-felt-raised);
+  --color-playmat-stitch: var(--playmat-stitch);
+  --color-card-paper: var(--card-paper);
+  --color-card-ink: var(--card-ink);
+  --color-card-suit: var(--card-suit);
+  --color-card-suit-ink: var(--card-suit-ink);
   --shadow-2xl: var(--shadow-2xl);
   --shadow-xl: var(--shadow-xl);
   --shadow-lg: var(--shadow-lg);
@@ -55,6 +80,20 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
+  --color-mana-white: var(--mana-white);
+  --color-mana-white-foreground: var(--mana-white-foreground);
+  --color-mana-blue: var(--mana-blue);
+  --color-mana-blue-foreground: var(--mana-blue-foreground);
+  --color-mana-black: var(--mana-black);
+  --color-mana-black-foreground: var(--mana-black-foreground);
+  --color-mana-red: var(--mana-red);
+  --color-mana-red-foreground: var(--mana-red-foreground);
+  --color-mana-green: var(--mana-green);
+  --color-mana-green-foreground: var(--mana-green-foreground);
+  --color-mana-colorless: var(--mana-colorless);
+  --color-mana-colorless-foreground: var(--mana-colorless-foreground);
+  --color-mana-gold: var(--mana-gold);
+  --color-mana-gold-foreground: var(--mana-gold-foreground);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -66,38 +105,52 @@
 
 :root {
   --radius: 0.5rem;
-  --background: oklch(0.9900 0 0);
-  --foreground: oklch(0 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0 0 0);
-  --popover: oklch(0.9900 0 0);
-  --popover-foreground: oklch(0 0 0);
-  --primary: oklch(0 0 0);
-  --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.9400 0 0);
-  --secondary-foreground: oklch(0 0 0);
-  --muted: oklch(0.9700 0 0);
-  --muted-foreground: oklch(0.4400 0 0);
-  --accent: oklch(0.9400 0 0);
-  --accent-foreground: oklch(0 0 0);
-  --destructive: oklch(0.6300 0.1900 23.0300);
-  --border: oklch(0.9200 0 0);
-  --input: oklch(0.9400 0 0);
-  --ring: oklch(0 0 0);
-  --chart-1: oklch(0.8100 0.1700 75.3500);
-  --chart-2: oklch(0.5500 0.2200 264.5300);
-  --chart-3: oklch(0.7200 0 0);
-  --chart-4: oklch(0.9200 0 0);
-  --chart-5: oklch(0.5600 0 0);
-  --sidebar: oklch(0.9900 0 0);
-  --sidebar-foreground: oklch(0 0 0);
-  --sidebar-primary: oklch(0 0 0);
-  --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(0.9400 0 0);
-  --sidebar-accent-foreground: oklch(0 0 0);
-  --sidebar-border: oklch(0.9400 0 0);
-  --sidebar-ring: oklch(0 0 0);
-  --destructive-foreground: oklch(1 0 0);
+  --background: oklch(0.9500 0.0250 85);
+  --foreground: oklch(0.2200 0.0300 260);
+  --card: oklch(0.9800 0.0150 85);
+  --card-foreground: oklch(0.2200 0.0300 260);
+  --popover: oklch(0.9800 0.0150 85);
+  --popover-foreground: oklch(0.2200 0.0300 260);
+  --primary: oklch(0.5200 0.1100 70);
+  --primary-foreground: oklch(0.9800 0.0100 85);
+  --secondary: oklch(0.9000 0.0300 85);
+  --secondary-foreground: oklch(0.2200 0.0300 260);
+  --muted: oklch(0.9000 0.0200 85);
+  --muted-foreground: oklch(0.4300 0.0300 260);
+  --accent: oklch(0.8800 0.0500 80);
+  --accent-foreground: oklch(0.2200 0.0300 260);
+  --destructive: oklch(0.5500 0.1900 28);
+  --border: oklch(0.8200 0.0300 80);
+  --input: oklch(0.8200 0.0300 80);
+  --ring: oklch(0.5200 0.1100 70);
+  --chart-1: oklch(0.5200 0.1100 70);
+  --chart-2: oklch(0.5200 0.1300 248);
+  --chart-3: oklch(0.5000 0.1200 152);
+  --chart-4: oklch(0.5200 0.1900 32);
+  --chart-5: oklch(0.4000 0.0300 310);
+  --sidebar: oklch(0.9800 0.0150 85);
+  --sidebar-foreground: oklch(0.2200 0.0300 260);
+  --sidebar-primary: oklch(0.5200 0.1100 70);
+  --sidebar-primary-foreground: oklch(0.9800 0.0100 85);
+  --sidebar-accent: oklch(0.8800 0.0500 80);
+  --sidebar-accent-foreground: oklch(0.2200 0.0300 260);
+  --sidebar-border: oklch(0.8200 0.0300 80);
+  --sidebar-ring: oklch(0.5200 0.1100 70);
+  --destructive-foreground: oklch(0.9800 0.0100 85);
+  --mana-white: oklch(0.9200 0.0450 95);
+  --mana-white-foreground: oklch(0.2500 0.0300 80);
+  --mana-blue: oklch(0.5200 0.1300 248);
+  --mana-blue-foreground: oklch(0.9700 0.0100 240);
+  --mana-black: oklch(0.3000 0.0300 310);
+  --mana-black-foreground: oklch(0.9500 0.0150 300);
+  --mana-red: oklch(0.5200 0.1900 32);
+  --mana-red-foreground: oklch(0.9700 0.0150 40);
+  --mana-green: oklch(0.5000 0.1200 152);
+  --mana-green-foreground: oklch(0.9700 0.0150 150);
+  --mana-colorless: oklch(0.7400 0.0200 250);
+  --mana-colorless-foreground: oklch(0.2000 0.0200 250);
+  --mana-gold: oklch(0.8000 0.1300 85);
+  --mana-gold-foreground: oklch(0.2500 0.0400 70);
   --shadow-color: hsl(0 0% 0%);
   --shadow-opacity: 0.18;
   --shadow-blur: 2px;
@@ -111,58 +164,90 @@
   --shadow-md: 0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 2px 4px -1px hsl(0 0% 0% / 0.18);
   --shadow-lg: 0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 4px 6px -1px hsl(0 0% 0% / 0.18);
   --shadow-xl: 0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 8px 10px -1px hsl(0 0% 0% / 0.18);
-  --shadow-2xl: 0px 1px 2px 0px hsl(0 0% 0% / 0.45);
-  --tracking-normal: 0em;
+  --shadow-2xl: 0px 2px 4px 0px hsl(0 0% 0% / 0.2), 0px 24px 48px -12px hsl(0 0% 0% / 0.45);
 }
 
 .dark {
-  --background: oklch(0 0 0);
-  --foreground: oklch(1 0 0);
-  --card: oklch(0.1400 0 0);
-  --card-foreground: oklch(1 0 0);
-  --popover: oklch(0.1800 0 0);
-  --popover-foreground: oklch(1 0 0);
-  --primary: oklch(1 0 0);
-  --primary-foreground: oklch(0 0 0);
-  --secondary: oklch(0.2500 0 0);
-  --secondary-foreground: oklch(1 0 0);
-  --muted: oklch(0.2300 0 0);
-  --muted-foreground: oklch(0.7200 0 0);
-  --accent: oklch(0.3200 0 0);
-  --accent-foreground: oklch(1 0 0);
-  --destructive: oklch(0.6900 0.2000 23.9100);
-  --border: oklch(0.2600 0 0);
-  --input: oklch(0.3200 0 0);
-  --ring: oklch(0.7200 0 0);
-  --chart-1: oklch(0.8100 0.1700 75.3500);
-  --chart-2: oklch(0.5800 0.2100 260.8400);
-  --chart-3: oklch(0.5600 0 0);
-  --chart-4: oklch(0.4400 0 0);
-  --chart-5: oklch(0.9200 0 0);
-  --sidebar: oklch(0.1800 0 0);
-  --sidebar-foreground: oklch(1 0 0);
-  --sidebar-primary: oklch(1 0 0);
-  --sidebar-primary-foreground: oklch(0 0 0);
-  --sidebar-accent: oklch(0.3200 0 0);
-  --sidebar-accent-foreground: oklch(1 0 0);
-  --sidebar-border: oklch(0.3200 0 0);
-  --sidebar-ring: oklch(0.7200 0 0);
-  --destructive-foreground: oklch(0 0 0);
-  --radius: 0.5rem;
-  --shadow-color: hsl(0 0% 0%);
-  --shadow-opacity: 0.18;
-  --shadow-blur: 2px;
-  --shadow-spread: 0px;
-  --shadow-offset-x: 0px;
-  --shadow-offset-y: 1px;
-  --shadow-2xs: 0px 1px 2px 0px hsl(0 0% 0% / 0.09);
-  --shadow-xs: 0px 1px 2px 0px hsl(0 0% 0% / 0.09);
-  --shadow-sm: 0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 1px 2px -1px hsl(0 0% 0% / 0.18);
-  --shadow: 0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 1px 2px -1px hsl(0 0% 0% / 0.18);
-  --shadow-md: 0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 2px 4px -1px hsl(0 0% 0% / 0.18);
-  --shadow-lg: 0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 4px 6px -1px hsl(0 0% 0% / 0.18);
-  --shadow-xl: 0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 8px 10px -1px hsl(0 0% 0% / 0.18);
-  --shadow-2xl: 0px 1px 2px 0px hsl(0 0% 0% / 0.45);
+  --background: oklch(0.1200 0.0300 200);
+  --foreground: oklch(0.9500 0.0150 85);
+  --card: oklch(0.1900 0.0300 185);
+  --card-foreground: oklch(0.9500 0.0150 85);
+  --popover: oklch(0.2600 0.0350 182);
+  --popover-foreground: oklch(0.9500 0.0150 85);
+  --primary: oklch(0.8000 0.1200 82);
+  --primary-foreground: oklch(0.2000 0.0300 200);
+  --secondary: oklch(0.2400 0.0300 185);
+  --secondary-foreground: oklch(0.9500 0.0150 85);
+  --muted: oklch(0.2500 0.0300 180);
+  --muted-foreground: oklch(0.7600 0.0200 85);
+  --accent: oklch(0.3000 0.0400 180);
+  --accent-foreground: oklch(0.9500 0.0150 85);
+  --destructive: oklch(0.6500 0.1900 28);
+  --border: oklch(0.9500 0.0150 85 / 14%);
+  --input: oklch(0.9500 0.0150 85 / 18%);
+  --ring: oklch(0.8000 0.1200 82);
+  --chart-1: oklch(0.8000 0.1200 82);
+  --chart-2: oklch(0.6500 0.1300 248);
+  --chart-3: oklch(0.6500 0.1200 152);
+  --chart-4: oklch(0.6500 0.1900 32);
+  --chart-5: oklch(0.7400 0.0200 250);
+  --sidebar: oklch(0.1900 0.0300 185);
+  --sidebar-foreground: oklch(0.9500 0.0150 85);
+  --sidebar-primary: oklch(0.8000 0.1200 82);
+  --sidebar-primary-foreground: oklch(0.2000 0.0300 200);
+  --sidebar-accent: oklch(0.3000 0.0400 180);
+  --sidebar-accent-foreground: oklch(0.9500 0.0150 85);
+  --sidebar-border: oklch(0.9500 0.0150 85 / 14%);
+  --sidebar-ring: oklch(0.8000 0.1200 82);
+  --destructive-foreground: oklch(0.9800 0.0100 85);
+}
+
+:root {
+  --playmat-felt: oklch(0.2050 0.0380 187);
+  --playmat-lamp: oklch(0.3200 0.0500 176 / 35%);
+  --playmat-edge: oklch(0.1300 0.0300 200);
+  --playmat-edge-highlight: oklch(1 0 0 / 6%);
+  --playmat-stitch: oklch(0.9500 0.0300 85 / 30%);
+  --playmat-quilt-light: oklch(1 0 0 / 7%);
+  --playmat-quilt-shadow: oklch(0 0 0 / 18%);
+  --playmat-quilt-size: 10px;
+  --playmat-felt-raised: oklch(0.3000 0.0450 178 / 75%);
+  /* Cards are a printed object, so these stay the same in light and dark. Each suit fill is its mana color and its
+     ink is the same hue darkened enough to read at 4.5:1 or more on the paper */
+  --card-paper: oklch(0.9650 0.0120 85);
+  --card-ink: oklch(0.2100 0.0200 60);
+  --suit-white: oklch(0.8800 0.0600 95);
+  --suit-white-ink: oklch(0.4600 0.0700 82);
+  --suit-blue: var(--mana-blue);
+  --suit-blue-ink: oklch(0.4200 0.1200 250);
+  --suit-black: var(--mana-black);
+  --suit-black-ink: var(--mana-black);
+  --suit-red: var(--mana-red);
+  --suit-red-ink: oklch(0.4700 0.1700 32);
+  --suit-green: var(--mana-green);
+  --suit-green-ink: oklch(0.4200 0.1000 152);
+  --suit-gold: var(--mana-gold);
+  --suit-gold-ink: oklch(0.4700 0.1000 72);
+  --suit-colorless: var(--mana-colorless);
+  --suit-colorless-ink: oklch(0.4200 0.0250 250);
+  --shadow-edge: 0 0 0 1px oklch(1 0 0 / 8%);
+  --shadow-card: 0 0 0 1px oklch(1 0 0 / 8%), 0 1px 1px oklch(0 0 0 / 40%), 0 6px 12px -4px oklch(0 0 0 / 45%), 0 18px 36px -12px oklch(0 0 0 / 55%);
+  --shadow-card-lifted: 0 0 0 1px oklch(1 0 0 / 10%), 0 2px 4px oklch(0 0 0 / 35%), 0 16px 28px -8px oklch(0 0 0 / 50%), 0 36px 64px -16px oklch(0 0 0 / 60%);
+  --shadow-chip: 0 0 0 1px oklch(0.9500 0.0300 85 / 22%), 0 1px 1px oklch(0 0 0 / 40%), 0 4px 10px -4px oklch(0 0 0 / 50%);
+  --shadow-chip-pressed: 0 0 0 1px oklch(0.9500 0.0300 85 / 22%), 0 1px 1px oklch(0 0 0 / 30%);
+  --mat-inset: 1rem;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --mat-inset: 1.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html.js [data-dealt-card] {
+    opacity: 0;
+  }
 }
 
 @layer base {
@@ -171,9 +256,65 @@
   }
   body {
     @apply bg-background text-foreground;
-    letter-spacing: var(--tracking-normal);
   }
   html {
     @apply font-sans;
   }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+}
+
+@utility nums {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+@utility grain-texture {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+@utility playmat-felt {
+  background-color: var(--playmat-felt);
+}
+
+@utility playmat-lamp {
+  background: radial-gradient(ellipse 55% 45% at 50% 58%, var(--playmat-lamp), transparent 70%);
+}
+
+@utility playmat-edge {
+  /* The huge spread paints everything outside the stitch as the mat's rubber edge, so the dark frame is an object and not a gradient */
+  box-shadow: 0 0 0 0.375rem var(--playmat-felt), 0 0 0 100vmax var(--playmat-edge), inset 0 1px 0 var(--playmat-edge-highlight);
+}
+
+@utility playmat-quilt {
+  /* Each diagonal is a light seam with a shadow just below it, which reads as padded quilting instead of a flat grid */
+  background-image:
+    repeating-linear-gradient(45deg, var(--playmat-quilt-light) 0 1.5px, transparent 1.5px var(--playmat-quilt-size)),
+    repeating-linear-gradient(-45deg, var(--playmat-quilt-light) 0 1.5px, transparent 1.5px var(--playmat-quilt-size)),
+    repeating-linear-gradient(45deg, transparent 0 1.5px, var(--playmat-quilt-shadow) 1.5px 3px, transparent 3px var(--playmat-quilt-size)),
+    repeating-linear-gradient(-45deg, transparent 0 1.5px, var(--playmat-quilt-shadow) 1.5px 3px, transparent 3px var(--playmat-quilt-size));
+}
+
+
+
+
+
+
+
+
+@utility card-fan-slots {
+  /* A tilted outer card spans about twice its width, so the step leaves that room on both ends of the fan */
+  --card-width: clamp(6.5rem, min(calc((100cqh - 7.25rem) / 1.4), calc(100cqw / 4.6)), 15rem);
+  --card-step: min(calc(var(--card-width) * 0.72), calc((100cqw - var(--card-width) * 2.1) / 6));
+}
+
+@utility mat-padding {
+  padding-inline: calc(var(--mat-inset) + 1rem);
+}
+
+@utility card-corners {
+  /* Percent radii keep the corner proportional to the card at any width; on a 63:88 box this pair draws a circle */
+  border-radius: 4.8% / 3.44%;
 }

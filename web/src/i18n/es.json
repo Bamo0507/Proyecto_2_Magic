@@ -1,0 +1,89 @@
+{
+  "app": {
+    "title": "Completar Modern Horizons 3",
+    "titleTemplate": "%s · MH3 Proyecto 2",
+    "description": "Simulación de la forma más barata de completar las 303 cartas del set base de Modern Horizons 3, comparando cartas sueltas, sobres, cajas y una regla de parada óptima."
+  },
+  "nav": {
+    "label": "Navegación principal",
+    "brand": "MH3 · Proyecto 2",
+    "course": "CC3074 · UVG"
+  },
+  "home": {
+    "title": "Completar Modern Horizons 3",
+    "subtitle": "Cada carta de la mano abre una parte del proyecto, desde el problema hasta los resultados de la simulación.",
+    "handLabel": "Secciones del proyecto",
+    "deckTitle": "Robar la primera carta",
+    "deckSubtitle": "Empezar por el problema"
+  },
+  "section": {
+    "back": "Volver a la mano",
+    "fieldLabel": "Campo de la sección",
+    "underConstructionTitle": "Esta carta todavía se está imprimiendo",
+    "underConstructionText": "El contenido de esta sección se agrega en las siguientes entregas del proyecto.",
+    "nextCard": "Siguiente carta",
+    "positionTemplate": "Sección {position} de {total}",
+    "handNavLabel": "Mano de secciones",
+    "previousCard": "Carta anterior",
+    "keyboardHint": "Las flechas izquierda y derecha cambian de carta"
+  },
+  "sections": {
+    "problem": {
+      "title": "Problema",
+      "type": "Contexto",
+      "text": "Por qué completar un set abriendo sobres puede salir caro, y qué pregunta buscamos responder.",
+      "flavor": "Catorce cartas al azar por sobre."
+    },
+    "objectives": {
+      "title": "Objetivos",
+      "type": "Metas medibles",
+      "text": "El objetivo general y los tres específicos, cada uno con la forma en que se mide.",
+      "flavor": "Uno general y tres que se miden."
+    },
+    "model": {
+      "title": "Modelo",
+      "type": "Formulación",
+      "text": "Cómo se arma un sobre, qué precios se usan y qué supuestos sostienen la simulación.",
+      "flavor": "Nueve pozos arman cada sobre."
+    },
+    "technique": {
+      "title": "Técnica",
+      "type": "Parada óptima",
+      "text": "La regla que decide entre abrir otro sobre, abrir una caja o comprar lo que falta.",
+      "flavor": "Parar cuando abrir deja de convenir."
+    },
+    "simulation": {
+      "title": "Simulación",
+      "type": "Demostración",
+      "text": "Abrir sobres en vivo y ver en qué momento la regla decide detenerse.",
+      "flavor": "Abrir hasta que la regla diga basta."
+    },
+    "results": {
+      "title": "Resultados",
+      "type": "Comparación",
+      "text": "Costo neto de cada estrategia en 31 réplicas, con su dispersión e intervalos.",
+      "flavor": "Lo que cuesta cada estrategia."
+    },
+    "validation": {
+      "title": "Validación",
+      "type": "Vida real",
+      "text": "Contraste con el precio real de un set completo y límites de lo que se puede afirmar.",
+      "flavor": "El modelo contra el precio real."
+    }
+  },
+  "footer": {
+    "fanContent": "Proyecto 2 MH3 is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+    "team": "Bryan Martínez, Adriana Palacios y Pedro Avila",
+    "fanContentTrigger": "Contenido de fans no oficial"
+  },
+  "cardBack": {
+    "title": "MH3",
+    "label": "Proyecto 2"
+  },
+  "states": {
+    "loading": "Barajando la información",
+    "errorTitle": "No se pudo revelar esta carta",
+    "errorText": "Hubo un problema al cargar los datos de esta sección.",
+    "retry": "Reintentar"
+  }
+}
