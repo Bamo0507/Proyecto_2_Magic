@@ -37,15 +37,22 @@ class GeneradorSobres:
             p=None if pozo.todas_igual_de_probables else pozo.probabilidades,
         ).tolist()
 
-    def abrir_sobre(self):
+    def abrir_sobre_por_pozo(self):
+        # Devuelve las cartas del sobre agrupadas por el pozo del que salieron, que es lo que permite revisar una
+        # ranura en particular, como la ranura rara, al verificar el generador
         posicion_composicion = self.sortear_posicion(self.probabilidades_acumuladas_composiciones)
         composicion = self.catalogo.composiciones[posicion_composicion]
-        cartas = []
+        cartas_por_pozo = {}
         for nombre_pozo, cantidad in composicion.cartas_por_pozo.items():
             pozo = self.catalogo.pozos[nombre_pozo]
-            for posicion in self.sacar_de_pozo(pozo, cantidad):
-                cartas.append(CartaAbierta(pozo.identificadores[posicion], bool(pozo.es_foil_por_carta[posicion])))
-        return cartas
+            cartas_por_pozo[nombre_pozo] = [
+                CartaAbierta(pozo.identificadores[posicion], bool(pozo.es_foil_por_carta[posicion]))
+                for posicion in self.sacar_de_pozo(pozo, cantidad)
+            ]
+        return cartas_por_pozo
+
+    def abrir_sobre(self):
+        return [carta for cartas in self.abrir_sobre_por_pozo().values() for carta in cartas]
 
     def abrir_producto(self, producto):
         return [carta for numero_sobre in range(producto.cantidad_sobres) for carta in self.abrir_sobre()]
