@@ -22,6 +22,8 @@ const PILE_TEXT_HIDDEN_ON_PHONES = "max-sm:pr-3 max-sm:[&>span:last-child]:sr-on
 interface SectionPageProps {
   sectionKey: SectionKey
   children?: ReactNode
+  // Sections whose field holds a full stage give up the one-screen layout so the field can grow past the viewport
+  tallField?: boolean
 }
 
 function UnderConstruction() {
@@ -34,12 +36,17 @@ function UnderConstruction() {
   )
 }
 
-export function SectionPage({ sectionKey, children }: SectionPageProps) {
+export function SectionPage({ sectionKey, children, tallField = false }: SectionPageProps) {
   const { section, position, previousSection, nextSection } = getSection(sectionKey)
   const content = texts.sections[sectionKey]
 
   return (
-    <main className="relative isolate flex min-h-dvh w-full max-w-full flex-col overflow-x-hidden md:h-dvh md:min-h-[44rem]">
+    <main
+      className={cn(
+        "relative isolate flex min-h-dvh w-full max-w-full flex-col overflow-x-hidden",
+        tallField ? "md:min-h-dvh" : "md:h-dvh md:min-h-[44rem]"
+      )}
+    >
       <PlaymatBackground />
       <PlaymatStitch />
       <TopBar />
@@ -70,7 +77,10 @@ export function SectionPage({ sectionKey, children }: SectionPageProps) {
 
         <section
           aria-label={texts.section.fieldLabel}
-          className="flex flex-1 flex-col rounded-[1.75rem] border-2 border-dashed border-playmat-stitch p-4 motion-safe:animate-rise-in motion-safe:[animation-delay:160ms] md:min-h-0 md:p-6"
+          className={cn(
+            "flex flex-1 flex-col rounded-[1.75rem] border-2 border-dashed border-playmat-stitch p-4 motion-safe:animate-rise-in motion-safe:[animation-delay:160ms] md:p-6",
+            tallField ? "md:h-[clamp(38rem,72dvh,50rem)] md:flex-none" : "md:min-h-0"
+          )}
         >
           {children ?? <UnderConstruction />}
         </section>

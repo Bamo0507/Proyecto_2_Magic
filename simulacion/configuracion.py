@@ -4,3 +4,5 @@ from pathlib import Path
 
 CARPETA_SET_ACTIVO = Path(__file__).parent / "datos" / "mh3_play"
 CARPETA_RESULTADOS = Path(__file__).parent.parent / "resultados" / CARPETA_SET_ACTIVO.name
+# La web lee la corrida de demostración desde su carpeta pública
+CARPETA_DATOS_WEB = Path(__file__).parent.parent / "web" / "public" / "data"

@@ -85,5 +85,102 @@
     "errorTitle": "No se pudo revelar esta carta",
     "errorText": "Hubo un problema al cargar los datos de esta sección.",
     "retry": "Reintentar"
+  },
+  "simulation": {
+    "stageLabel": "Corrida de demostración",
+    "seedTemplate": "Parada óptima con la semilla {seed}",
+    "missingLabel": "Cartas que faltan",
+    "missingTemplate": "{missing} de {total}",
+    "packsLabel": "Sobres abiertos",
+    "spendLabel": "Gastado en sellado",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "skip": "Saltar animación",
+    "restart": "Volver a empezar",
+    "openPack": "Abrir el sobre",
+    "progressTemplate": "Paso {current} de {total}",
+    "sealedPack": {
+      "label": "Sobre de MH3",
+      "cards": "14 cartas",
+      "hint": "Sobre sellado, listo para abrir",
+      "officialAlt": "Sobre sellado de Modern Horizons 3, Play Booster",
+      "credit": "Empaque oficial · imagen de TCGplayer"
+    },
+    "decision": {
+      "title": "¿Qué conviene ahora?",
+      "subtitleTemplate": "Ganancia esperada de cada opción con {missing} cartas faltantes",
+      "formula": "Ganancia esperada = reventa promedio de lo que salga + ahorro por cartas faltantes que salgan − precio del producto",
+      "chosen": "La regla elige",
+      "stopNoteTemplate": "Ninguna opción le gana a parar, así que se compran sueltas las {missing} cartas que faltan.",
+      "actions": {
+        "stop": "Parar y comprar sueltas",
+        "pack": "Abrir un sobre",
+        "box": "Abrir una caja"
+      }
+    },
+    "pack": {
+      "titleTemplate": "Primer sobre de la caja {box}",
+      "summaryTemplate": "{new} cartas nuevas de 14"
+    },
+    "burst": {
+      "titleTemplate": "Caja {box}",
+      "packCounterTemplate": "Sobre {current} de {total}",
+      "newCardsLabel": "Cartas nuevas de esta caja",
+      "summaryTemplate": "{new} cartas nuevas de {opened} abiertas; las demás se venden"
+    },
+    "closing": {
+      "title": "Cierre de cuentas",
+      "caption": "Costo neto de esta corrida",
+      "concept": "Concepto",
+      "amount": "Monto",
+      "sealed": "Sobres y cajas",
+      "looseTemplate": "Cartas sueltas ({count})",
+      "sale": "Venta de repetidas y cartas fuera del set",
+      "net": "Costo neto",
+      "buyAllTemplate": "Comprar todo suelto costaría {amount}",
+      "savingsTemplate": "Esta corrida ahorra {amount} ({percent})",
+      "missingTemplate": "Las {count} cartas que se compran sueltas"
+    },
+    "badges": {
+      "new": "Nueva",
+      "repeated": "Repetida",
+      "outOfSet": "Fuera del set",
+      "foil": "Foil"
+    },
+    "rarities": {
+      "common": "Común",
+      "uncommon": "Poco común",
+      "rare": "Rara",
+      "mythic": "Mítica"
+    },
+    "slots": {
+      "land": "Tierra",
+      "foil_land": "Tierra foil",
+      "common": "Común",
+      "special_guest": "Invitada especial",
+      "new_uncommon": "Poco común",
+      "reprint": "Reimpresión",
+      "wildcard": "Comodín",
+      "foil_with_showcase": "Foil",
+      "new_rare_mythic": "Rara o mítica"
+    },
+    "expand": "Ampliar mesa",
+    "collapse": "Salir de la mesa ampliada",
+    "expandedLabel": "Mesa de simulación ampliada",
+    "keyboardHint": "Flechas o barra espaciadora para avanzar, Escape para salir",
+    "cardDetail": {
+      "openTemplate": "Ver {name} en grande",
+      "close": "Cerrar",
+      "rarity": "Rareza",
+      "slot": "Ranura del sobre",
+      "status": "En esta corrida",
+      "marketPrice": "Precio de mercado",
+      "foilPrice": "Precio foil",
+      "buyPrice": "Precio de compra suelta",
+      "buyPriceNote": "Incluye el mínimo de $0.40 por carta de TCGplayer Direct.",
+      "bought": "Comprada suelta al cierre",
+      "outOfSetNote": "Esta versión no cuenta para completar las 303 cartas del set base; se vende.",
+      "sourceTemplate": "Imagen de Scryfall. Precios de TCGplayer al {date}."
+    }
   }
 }

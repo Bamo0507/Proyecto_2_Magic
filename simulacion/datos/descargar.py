@@ -7,6 +7,7 @@ import urllib.parse
 import urllib.request
 
 from simulacion.configuracion import CARPETA_SET_ACTIVO
+from simulacion.datos.imagenes import dorso_de_cartas, imagenes_de_carta
 from simulacion.modelo.catalogo import es_carta_del_set_base
 
 URL_COMPOSICION_SOBRES = "https://raw.githubusercontent.com/taw/magic-sealed-data/master/sealed_basic_data.json"
@@ -109,6 +110,7 @@ def congelar_precios(identificadores, cartas_scryfall):
             "precio_normal": precio_a_numero(cartas_scryfall[identificador]["prices"]["usd"]),
             "precio_foil": precio_a_numero(cartas_scryfall[identificador]["prices"]["usd_foil"]),
             "tcgplayer_id": cartas_scryfall[identificador].get("tcgplayer_id"),
+            **imagenes_de_carta(cartas_scryfall[identificador]),
         }
         for identificador in sorted(identificadores)
     }
@@ -136,13 +138,15 @@ def descargar_y_congelar(carpeta_set):
 
     identificadores = identificadores_usados(composicion["pozos"])
     codigos_set = sorted({identificador.split(":")[0] for identificador in identificadores})
-    cartas = congelar_precios(identificadores, descargar_cartas_scryfall(codigos_set, carpeta_crudos))
+    cartas_scryfall = descargar_cartas_scryfall(codigos_set, carpeta_crudos)
+    cartas = congelar_precios(identificadores, cartas_scryfall)
     guardar_json(
         carpeta_set / "cartas.json",
         {
             "fecha_consulta": fecha_consulta,
             "fuente": "Scryfall (precio USD = TCGplayer Market Price)",
             "cartas": cartas,
+            "dorso": dorso_de_cartas(cartas_scryfall.values()),
         },
     )
     reportar_resumen(fecha_consulta, cartas, configuracion)

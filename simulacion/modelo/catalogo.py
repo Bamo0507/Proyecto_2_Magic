@@ -37,6 +37,8 @@ class ProductoSellado:
     nombre: str
     precio: float
     cantidad_sobres: int
+    # Foto del empaque en la página del producto, solo la usa la web
+    imagen: str | None = None
 
 
 def leer_json(ruta):
@@ -73,7 +75,7 @@ def construir_composiciones(composiciones_en_json):
 
 def construir_productos(productos_en_json):
     return {
-        tipo: ProductoSellado(tipo, producto["nombre"], producto["precio"], producto["cantidad_sobres"])
+        tipo: ProductoSellado(tipo, producto["nombre"], producto["precio"], producto["cantidad_sobres"], producto.get("imagen"))
         for tipo, producto in productos_en_json.items()
     }
 
@@ -90,6 +92,7 @@ class Catalogo:
         self.numero_maximo_set_base = configuracion["numero_maximo_set_base"]
         self.fecha_precios = datos_cartas["fecha_consulta"]
         self.cartas = datos_cartas["cartas"]
+        self.dorso = datos_cartas.get("dorso")
 
         self.identificadores_base = self.ordenar_identificadores_base()
         self.posicion_en_set_base = {

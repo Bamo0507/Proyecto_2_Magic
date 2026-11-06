@@ -13,6 +13,7 @@ simulacion/
   semillas.py              semillas fijas de los experimentos y de la verificación
   datos/                   ¿con qué información trabajamos?
     descargar.py           descarga y congela los datos del set activo
+    imagenes.py            links a la imagen de cada carta en Scryfall, sin volver a descargar precios
     mh3_play/              un set por carpeta (configuración, cartas, composición de sobres, precios de sellado,
                            referencia real)
   modelo/                  ¿cómo funciona el sistema?
@@ -45,6 +46,7 @@ simulacion/
   salidas/                 ¿cómo se guardan y se muestran los resultados?
     exportar_csv.py        salidas en CSV
     graficas.py            gráficas del informe a partir de los CSV
+    exportar_web.py        corrida de demostración sobre por sobre para la animación de la web
 resultados/                CSV generados, una carpeta por set
 web/                       interfaz en Next.js (ver web/README.md)
 ```
@@ -61,9 +63,12 @@ python -m simulacion.experimentos.escenario_base
 python -m simulacion.experimentos.sensibilidad
 python -m simulacion.verificacion.ejecutar
 python -m simulacion.salidas.graficas
+python -m simulacion.salidas.exportar_web
 ```
 
 Las gráficas leen los CSV, así que van al final. Todo junto corre en menos de un minuto.
+
+`exportar_web` deja en `web/public/data/simulation-run.json` la parada óptima con la semilla de ejemplo, sobre por sobre, con las cartas de cada sobre y cada decisión de la regla. La web solo anima ese archivo, así que lo que se ve en pantalla es la misma corrida del modelo; el script comprueba que su costo neto sea idéntico al del motor. Las imágenes no se descargan: la web las pide al servidor de Scryfall, y si alguna no carga muestra una carta impresa con el nombre y la rareza.
 
 El paso de descarga es opcional, porque los datos congelados ya vienen en `simulacion/datos/mh3_play/`. Si se vuelve a correr, la fecha de consulta y los precios cambian.
 
