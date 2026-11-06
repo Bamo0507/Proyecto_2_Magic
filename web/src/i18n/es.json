@@ -71,6 +71,35 @@
       "flavor": "El modelo contra el precio real."
     }
   },
+  "objectives": {
+    "generalLabel": "Objetivo general",
+    "general": "Encontrar la estrategia de menor costo neto para completar las 303 cartas del set base de MH3 mediante simulación Monte Carlo y parada óptima.",
+    "metricLabel": "Métrica principal",
+    "metric": "Costo neto (USD): gasto en sobres, cajas y cartas sueltas menos la venta de repetidas tras las comisiones de TCGplayer.",
+    "specificLabel": "Objetivos específicos",
+    "measureLabel": "Qué se mide",
+    "answeredIn": "Se responde en",
+    "items": [
+      {
+        "title": "Verificar el simulador",
+        "measure": "Error relativo frente a las tasas de rareza de Wizards y la fórmula del coleccionista de cupones.",
+        "sections": [{ "label": "Validación", "href": "/validation" }]
+      },
+      {
+        "title": "Comparar estrategias sin optimizar",
+        "measure": "Costo neto promedio de sueltas, sobres y cajas; 31 réplicas por estrategia e intervalo de confianza del 95%.",
+        "sections": [{ "label": "Resultados", "href": "/results" }]
+      },
+      {
+        "title": "Medir el ahorro de la parada óptima",
+        "measure": "Reducción porcentual del costo neto frente a la mejor estrategia sin optimizar; estabilidad ante cambios en precio de caja y comisión de venta.",
+        "sections": [
+          { "label": "Técnica", "href": "/technique" },
+          { "label": "Resultados", "href": "/results" }
+        ]
+      }
+    ]
+  },
   "footer": {
     "fanContent": "Proyecto 2 MH3 is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
     "team": "Bryan Martínez, Adriana Palacios y Pedro Avila",
