@@ -10,7 +10,7 @@ import { selectionOf, type SelectedCard } from "@/features/simulation/components
 import { CardImage } from "@/features/simulation/components/CardImage"
 import { MagicCardBack } from "@/features/simulation/components/MagicCardBack"
 import { SealedPack } from "@/features/simulation/components/SealedPack"
-import { fillTemplate } from "@/features/simulation/format"
+import { fillTemplate } from "@/features/shared/format"
 import { HIGHLIGHT_SLOT, revealOrder, type RunStatus, type Scene } from "@/features/simulation/simulationScenes"
 import type { SimulationRun } from "@/features/simulation/types/simulationRun"
 import { texts } from "@/i18n/texts"

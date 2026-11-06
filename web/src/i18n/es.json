@@ -147,23 +147,6 @@
       "outOfSet": "Fuera del set",
       "foil": "Foil"
     },
-    "rarities": {
-      "common": "Común",
-      "uncommon": "Poco común",
-      "rare": "Rara",
-      "mythic": "Mítica"
-    },
-    "slots": {
-      "land": "Tierra",
-      "foil_land": "Tierra foil",
-      "common": "Común",
-      "special_guest": "Invitada especial",
-      "new_uncommon": "Poco común",
-      "reprint": "Reimpresión",
-      "wildcard": "Comodín",
-      "foil_with_showcase": "Foil",
-      "new_rare_mythic": "Rara o mítica"
-    },
     "expand": "Ampliar mesa",
     "collapse": "Salir de la mesa ampliada",
     "expandedLabel": "Mesa de simulación ampliada",
@@ -181,6 +164,261 @@
       "bought": "Comprada suelta al cierre",
       "outOfSetNote": "Esta versión no cuenta para completar las 303 cartas del set base; se vende.",
       "sourceTemplate": "Imagen de Scryfall. Precios de TCGplayer al {date}."
+    }
+  },
+  "cards": {
+    "rarities": {
+      "common": "Común",
+      "uncommon": "Poco común",
+      "rare": "Rara",
+      "mythic": "Mítica"
+    },
+    "slots": {
+      "land": "Tierra",
+      "foil_land": "Tierra foil",
+      "common": "Común",
+      "special_guest": "Invitada especial",
+      "new_uncommon": "Poco común",
+      "reprint": "Reimpresión",
+      "wildcard": "Comodín",
+      "foil_with_showcase": "Foil",
+      "new_rare_mythic": "Rara o mítica"
+    },
+    "outOfSet": "Fuera del set"
+  },
+  "model": {
+    "tabsLabel": "Partes del modelo",
+    "tabs": {
+      "pack": "El sobre",
+      "probability": "Probabilidades",
+      "market": "Mercado",
+      "assumptions": "Supuestos"
+    },
+    "pack": {
+      "compositionsTemplate": "Hay {count} composiciones posibles. La más común ({share}) trae {commons} comunes y ninguna tierra.",
+      "slotsLabel": "Las 14 ranuras de un sobre",
+      "perPackTemplate": "{count} por sobre",
+      "perPackOne": "1 por sobre",
+      "mixLabel": "Qué puede salir en esta ranura",
+      "groups": {
+        "opening": {
+          "label": "Ranura variable",
+          "text": "Puede traer una tierra básica, una tierra foil o una común más, según la composición que toque."
+        },
+        "common": {
+          "label": "Comunes",
+          "text": "Seis comunes distintas del pozo de 80. Muy de vez en cuando una de ellas se cambia por una carta invitada especial."
+        },
+        "uncommon": {
+          "label": "Poco comunes",
+          "text": "Tres poco comunes distintas. Dentro de una misma ranura nunca se repite una carta."
+        },
+        "rare": {
+          "label": "Rara o mítica",
+          "text": "La ranura que más importa: una sola carta, que casi siempre es rara y pocas veces mítica o una versión especial."
+        },
+        "reprint": {
+          "label": "Reimpresión",
+          "text": "Una carta reimpresa de sets anteriores. Varias pertenecen al set base de MH3."
+        },
+        "wildcard": {
+          "label": "Comodín",
+          "text": "Una carta de cualquier rareza. Puede coincidir con una carta que ya salió en otra ranura del mismo sobre."
+        },
+        "foil": {
+          "label": "Foil",
+          "text": "Una carta brillante de cualquier rareza. Cuenta para completar el set igual que la versión normal."
+        }
+      },
+      "openingSharesTemplate": "Tierra {land}, tierra foil {foilLand}, común extra {extraCommon}",
+      "specialGuestTemplate": "Invitada especial en {share} de los sobres",
+      "heading": "Cada sobre trae 14 cartas, y cada ranura saca la suya de un pozo distinto.",
+      "groupCountTemplate": "×{count}",
+      "selectHint": "Toca un grupo de ranuras para ver de qué pozo sale.",
+      "poolTypeTemplate": "Pozo · {perPack}",
+      "distinctCaption": "cartas distintas",
+      "baseFooterTemplate": "{base} del set · {outOfSet} fuera"
+    },
+    "probability": {
+      "raffleTitle": "La ranura rara",
+      "categories": {
+        "rara": "Raras",
+        "mitica": "Míticas",
+        "variante": "Variantes (fuera del set)"
+      },
+      "exampleTemplate": "{name} tiene {weight} de {total} boletos",
+      "exampleFormulaTemplate": "{weight} ÷ {total} = {probability}",
+      "frequencyTitle": "¿Cada cuánto sale una carta en particular?",
+      "frequencyCaption": "Probabilidad de ver una carta concreta en un sobre",
+      "rarityColumn": "Rareza",
+      "cardsColumn": "Cartas en el set",
+      "chanceColumn": "Por sobre",
+      "everyColumn": "Sale 1 vez cada",
+      "everyTemplate": "{packs} sobres",
+      "duplicatesTemplate": "En {share} de los sobres sale alguna carta dos veces ({normalShare} con las dos copias normales). Dentro de una ranura nunca se repite, pero el comodín o la foil pueden coincidir con otra ranura.",
+      "heading": "Los datos no traen porcentajes: traen boletos, como una tómbola.",
+      "ticketCaptionTemplate": "Cada boleto dibujado vale {per} de los {total} boletos del pozo.",
+      "categoryRateTemplate": "{data} · Wizards {official}",
+      "pulledLabel": "Boleto sacado"
+    },
+    "market": {
+      "packLabel": "Sobre",
+      "boxLabel": "Caja",
+      "packsTemplate": "{packs} sobres",
+      "perPackTemplate": "{price} por sobre",
+      "productLink": "Ver producto",
+      "examplesLabel": "Precio de la carta",
+      "exampleTemplate": "Carta de {price}",
+      "buyTitle": "Si la compras suelta",
+      "marketPrice": "Precio de mercado",
+      "minimumNoteTemplate": "Mínimo por carta en TCGplayer Direct: {minimum}",
+      "youPay": "Pagas",
+      "sellTitle": "Si la vendes",
+      "commissionTemplate": "Comisión ({rate})",
+      "processingTemplate": "Procesamiento de pago ({rate})",
+      "fixedFee": "Tarifa fija del pedido",
+      "youReceive": "Recibes",
+      "notSold": "No se vende",
+      "notSoldNote": "Venderla dejaría pérdida, así que la carta se guarda y cuenta como $0.",
+      "rulesTitle": "Letra pequeña de la simulación",
+      "shippingTemplate": "Envío de {cost} si el pedido de sueltas no llega a {threshold}; desde ahí es gratis.",
+      "capTemplate": "La comisión tiene un tope de {cap} por carta.",
+      "packsOne": "1 sobre",
+      "heading": "Comprar una carta siempre cuesta más de lo que te deja venderla.",
+      "productsLabel": "Producto sellado en TCGplayer",
+      "lossLabel": "Se queda en comisiones",
+      "receiptFooter": "TCGplayer · precio de mercado"
+    },
+    "assumptions": {
+      "sourcesTitle": "De dónde sale cada dato",
+      "assumptionsTitle": "Qué simplificamos",
+      "openLink": "Abrir fuente",
+      "sources": {
+        "scryfall": {
+          "title": "Scryfall",
+          "textTemplate": "Precio de cada carta e imágenes · {date}"
+        },
+        "composition": {
+          "title": "magic-sealed-data",
+          "text": "Composición del sobre y pesos"
+        },
+        "wizards": {
+          "title": "Wizards of the Coast",
+          "text": "Tasas oficiales del sobre"
+        },
+        "tcgplayer": {
+          "title": "TCGplayer",
+          "textTemplate": "Precio del sobre y la caja · {date}"
+        }
+      },
+      "items": [
+        {
+          "title": "Precios congelados",
+          "text": "Todos los precios son de una sola fecha."
+        },
+        {
+          "title": "Sobres independientes",
+          "text": "Cada sobre se arma por su cuenta, también dentro de una caja."
+        },
+        {
+          "title": "Mercado sin límite",
+          "text": "Cualquier repetida se vende a su precio de mercado."
+        },
+        {
+          "title": "Foil cuenta",
+          "text": "Una copia foil también llena su casilla."
+        }
+      ],
+      "heading": "Lo que simplificamos y de dónde sale cada número."
+    }
+  },
+  "technique": {
+    "tabsLabel": "Partes de la técnica",
+    "tabs": {
+      "idea": "La idea y la fórmula",
+      "probability": "Probabilidad en una caja",
+      "action": "La regla en acción",
+      "why": "Por qué funciona"
+    },
+    "idea": {
+      "formulaCaption": "Primera decisión de la corrida, con las 303 cartas por conseguir",
+      "terms": {
+        "sale": {
+          "label": "Reventa promedio de lo que salga",
+          "detailTemplate": "{packs} × {perPack} por sobre"
+        },
+        "savings": {
+          "label": "Ahorro por cartas faltantes que salgan",
+          "detail": "Suma, solo de las cartas que faltan, de la probabilidad de que salga por lo que te ahorras"
+        },
+        "price": {
+          "label": "Precio del producto",
+          "detail": "Lo que cuesta el sobre o la caja"
+        },
+        "gain": {
+          "label": "Ganancia esperada"
+        }
+      },
+      "heading": "¿Abrir una cosa más y después parar me deja mejor que parar ahora mismo?",
+      "ruleLine": "Abre lo que más gane si la ganancia es positiva; si ninguna opción pasa de cero, para y compra sueltas las cartas que faltan.",
+      "optionsLabel": "Las tres opciones en la primera decisión",
+      "winner": "Gana",
+      "ledgerTitles": {
+        "stop": "La cuenta de parar",
+        "pack": "La cuenta de abrir un sobre",
+        "box": "La cuenta de abrir una caja"
+      },
+      "stopLedger": "Parar no cuesta ni gana nada en este momento: es la referencia contra la que se compara abrir. Si ninguna opción le gana, se compran sueltas las cartas que faltan.",
+      "savingsNoteTemplate": "Si sale {name}: {buy} − {sale} = {savings}",
+      "optionNames": {
+        "stop": "Parar",
+        "pack": "Abrir un sobre",
+        "box": "Abrir una caja"
+      }
+    },
+    "probability": {
+      "cards": {
+        "example": "Ulamog (mítica)",
+        "common": "Una común promedio"
+      },
+      "packsLabel": "Sobres abiertos",
+      "naiveTemplate": "Sumar daría {naive}",
+      "chartTitle": "Probabilidad de ver la carta al menos una vez",
+      "seriesCorrect": "Al menos una vez",
+      "seriesNaive": "Sumando",
+      "complementTemplate": "En {packs} sobres: {miss} de no verla nunca, así que {hit} de verla al menos una vez.",
+      "formulaBaseTemplate": "1 − (1 − {perPack})",
+      "formulaResultTemplate": "= {probability}",
+      "heading": "En una caja no se suman probabilidades: se calcula la de no ver la carta en ningún sobre.",
+      "packsCaptionTemplate": "{packs} sobres abiertos",
+      "xTickTemplate": "{boxes} caja",
+      "xTickPluralTemplate": "{boxes} cajas",
+      "gapNote": "Lo rayado es lo que se cuenta de más al sumar.",
+      "boxButtonTemplate": "Abrir hasta la caja {boxes}"
+    },
+    "action": {
+      "missingTemplate": "Faltan {missing}",
+      "packsTemplate": "{packs} sobres abiertos",
+      "actions": {
+        "stop": "Parar",
+        "pack": "Abrir sobre",
+        "box": "Abrir caja"
+      },
+      "seriesPack": "Sobre",
+      "seriesBox": "Caja",
+      "zero": "Cero",
+      "stopNoteTemplate": "Con {missing} cartas faltantes ninguna opción le gana a parar: se compran sueltas.",
+      "simulationLink": "Verla animada en Simulación",
+      "heading": "La ganancia de abrir otra caja baja con cada caja abierta, hasta que deja de convenir.",
+      "stopHere": "Aquí se para"
+    },
+    "why": {
+      "monotoneText": "Cada carta conseguida sale de la suma de faltantes, así que el ahorro posible se achica. La reventa promedio y los precios no cambian. Si hoy abrir ya no conviene, mañana tampoco va a convenir: a esto la teoría lo llama el caso monótono.",
+      "analogy": "Si vas bajando una cuesta y sabes que el camino solo baja, no necesitas ver el mapa completo para saber dónde detenerte.",
+      "chartTitle": "Ganancia esperada de abrir una caja en cada decisión",
+      "reference": "Thomas Ferguson, Optimal Stopping and Applications, capítulo 5.",
+      "heading": "Si hoy ya no conviene abrir, mañana tampoco: la ganancia solo puede bajar.",
+      "stopZone": "Aquí se para"
     }
   }
 }

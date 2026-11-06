@@ -11,3 +11,6 @@ SOBRES_VERIFICACION_RAREZA = 500_000
 SEMILLA_VERIFICACION_POR_CARTA = 40_000
 SOBRES_VERIFICACION_POR_CARTA = 200_000
 SEMILLAS_CONSISTENCIA = tuple(range(50_000, 50_031))
+# Sobres para estimar qué tan seguido sale una carta repetida dentro de un mismo sobre, que muestra la sección Modelo
+SEMILLA_MODELO_REPETIDAS = 60_000
+SOBRES_MODELO_REPETIDAS = 100_000

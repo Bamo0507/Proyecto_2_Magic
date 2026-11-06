@@ -5,7 +5,7 @@ import { X } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { CardImage } from "@/features/simulation/components/CardImage"
-import { fillTemplate, formatMoney } from "@/features/simulation/format"
+import { fillTemplate, formatMoney } from "@/features/shared/format"
 import type { CardInfo, OpenedCard, SimulationRun } from "@/features/simulation/types/simulationRun"
 import { texts } from "@/i18n/texts"
 
@@ -50,8 +50,8 @@ export function CardDetailDialog({ run, selected, onClose }: CardDetailDialogPro
       ? labels.bought
       : texts.simulation.badges[selected.status]
     : ""
-  const rarity = card ? (texts.simulation.rarities[card.rarity as keyof typeof texts.simulation.rarities] ?? card.rarity) : ""
-  const slot = selected?.slot ? (texts.simulation.slots[selected.slot as keyof typeof texts.simulation.slots] ?? selected.slot) : null
+  const rarity = card ? (texts.cards.rarities[card.rarity as keyof typeof texts.cards.rarities] ?? card.rarity) : ""
+  const slot = selected?.slot ? (texts.cards.slots[selected.slot as keyof typeof texts.cards.slots] ?? selected.slot) : null
 
   return (
     <Dialog.Root open={selected !== null} onOpenChange={(open) => !open && onClose()}>

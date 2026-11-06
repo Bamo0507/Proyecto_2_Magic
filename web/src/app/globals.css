@@ -318,3 +318,71 @@
   /* Percent radii keep the corner proportional to the card at any width; on a 63:88 box this pair draws a circle */
   border-radius: 4.8% / 3.44%;
 }
+
+@utility torn-edges {
+  /* Thermal receipt: a row of small teeth cut on the top and bottom edges. The mask only uses alpha, so the paper keeps
+     its token color; put the shadow on a parent with drop-shadow, since a mask also clips box-shadow */
+  --tooth: 0.4rem;
+  mask:
+    conic-gradient(from 135deg at top, transparent, black 1deg 89deg, transparent 90deg) top / calc(var(--tooth) * 2) var(--tooth) repeat-x,
+    conic-gradient(from -45deg at bottom, transparent, black 1deg 89deg, transparent 90deg) bottom / calc(var(--tooth) * 2) var(--tooth) repeat-x,
+    linear-gradient(black, black) center / 100% calc(100% - var(--tooth) * 2) no-repeat;
+}
+
+@utility chip-stack {
+  /* A stack of poker chips seen from the side: the chip color with a darker groove every few pixels. The color comes
+     from --chip-color, set with a mana token where the stack is used */
+  background-image: repeating-linear-gradient(
+    to top,
+    var(--chip-color) 0 0.4rem,
+    color-mix(in oklch, var(--chip-color), var(--card-ink) 35%) 0.4rem 0.5rem
+  );
+}
+
+@utility chip-slider {
+  /* A range input drawn as a poker chip sliding along a stitched groove of the mat */
+  appearance: none;
+  height: 2.75rem;
+  background: transparent;
+  cursor: pointer;
+
+  &::-webkit-slider-runnable-track {
+    height: 0.5rem;
+    border-radius: 9999px;
+    border: 1px dashed var(--playmat-stitch);
+    background: var(--playmat-felt-raised);
+  }
+  &::-moz-range-track {
+    height: 0.5rem;
+    border-radius: 9999px;
+    border: 1px dashed var(--playmat-stitch);
+    background: var(--playmat-felt-raised);
+  }
+  &::-webkit-slider-thumb {
+    appearance: none;
+    width: 2rem;
+    height: 2rem;
+    margin-top: -0.8125rem;
+    border-radius: 9999px;
+    border: 0.3rem dashed color-mix(in oklch, var(--primary-foreground), transparent 45%);
+    background: var(--primary);
+    box-shadow: var(--shadow-chip);
+  }
+  &::-moz-range-thumb {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 9999px;
+    border: 0.3rem dashed color-mix(in oklch, var(--primary-foreground), transparent 45%);
+    background: var(--primary);
+    box-shadow: var(--shadow-chip);
+  }
+  &:focus-visible {
+    outline: none;
+  }
+  &:focus-visible::-webkit-slider-thumb {
+    box-shadow: 0 0 0 3px var(--ring), var(--shadow-chip);
+  }
+  &:focus-visible::-moz-range-thumb {
+    box-shadow: 0 0 0 3px var(--ring), var(--shadow-chip);
+  }
+}

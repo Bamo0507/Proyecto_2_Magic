@@ -1,6 +1,6 @@
 import type { ReactNode } from "react"
 
-import { fillTemplate, formatMoney } from "@/features/simulation/format"
+import { fillTemplate, formatMoney } from "@/features/shared/format"
 import type { RunStatus } from "@/features/simulation/simulationScenes"
 import type { SimulationRun } from "@/features/simulation/types/simulationRun"
 import { texts } from "@/i18n/texts"

@@ -1,7 +1,7 @@
 import { CardButton } from "@/features/simulation/components/CardButton"
 import type { SelectedCard } from "@/features/simulation/components/CardDetailDialog"
 import { CardImage } from "@/features/simulation/components/CardImage"
-import { fillTemplate, formatMoney, formatPercent } from "@/features/simulation/format"
+import { fillTemplate, formatMoney, formatPercent } from "@/features/shared/format"
 import type { SimulationRun } from "@/features/simulation/types/simulationRun"
 import { ScoreSheet } from "@/features/shared/components/ScoreSheet"
 import { texts } from "@/i18n/texts"

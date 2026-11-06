@@ -32,7 +32,7 @@ export function SimulationStage() {
   }
 
   const player = (
-    <SimulationPlayer run={state.run} expanded={expanded} onToggleExpanded={() => setExpanded((current) => !current)} />
+    <SimulationPlayer run={state.data} expanded={expanded} onToggleExpanded={() => setExpanded((current) => !current)} />
   )
 
   if (!expanded) return <div className="flex min-h-0 flex-1 flex-col">{player}</div>

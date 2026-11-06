@@ -47,6 +47,8 @@ simulacion/
     exportar_csv.py        salidas en CSV
     graficas.py            gráficas del informe a partir de los CSV
     exportar_web.py        corrida de demostración sobre por sobre para la animación de la web
+    exportar_modelo_web.py composición del sobre, probabilidades y mercado para la sección Modelo de la web
+    exportar_tecnica_web.py   la regla de parada desarmada con las decisiones de la corrida, para la sección Técnica
 resultados/                CSV generados, una carpeta por set
 web/                       interfaz en Next.js (ver web/README.md)
 ```
@@ -64,6 +66,8 @@ python -m simulacion.experimentos.sensibilidad
 python -m simulacion.verificacion.ejecutar
 python -m simulacion.salidas.graficas
 python -m simulacion.salidas.exportar_web
+python -m simulacion.salidas.exportar_modelo_web
+python -m simulacion.salidas.exportar_tecnica_web
 ```
 
 Las gráficas leen los CSV, así que van al final. Todo junto corre en menos de un minuto.

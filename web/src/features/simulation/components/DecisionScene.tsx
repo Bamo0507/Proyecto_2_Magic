@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils"
-import { fillTemplate, formatSignedMoney } from "@/features/simulation/format"
+import { fillTemplate, formatSignedMoney } from "@/features/shared/format"
 import type { SimulationAction, SimulationRun } from "@/features/simulation/types/simulationRun"
 import { texts } from "@/i18n/texts"
 

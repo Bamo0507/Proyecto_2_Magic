@@ -10,7 +10,7 @@ import { ClosingScene } from "@/features/simulation/components/ClosingScene"
 import { DecisionScene } from "@/features/simulation/components/DecisionScene"
 import { PackOpeningScene } from "@/features/simulation/components/PackOpeningScene"
 import { RunStatusBar } from "@/features/simulation/components/RunStatusBar"
-import { fillTemplate } from "@/features/simulation/format"
+import { fillTemplate } from "@/features/shared/format"
 import { usePreloadImages } from "@/features/simulation/hooks/usePreloadImages"
 import {
   buildScenes,

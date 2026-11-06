@@ -23,7 +23,7 @@ interface CardImageProps {
 
 function rarityLabel(rarity: string | undefined) {
   if (!rarity) return ""
-  return texts.simulation.rarities[rarity as keyof typeof texts.simulation.rarities] ?? rarity
+  return texts.cards.rarities[rarity as keyof typeof texts.cards.rarities] ?? rarity
 }
 
 // Printed face shown when the image fails, so a broken request never leaves a hole in the pack and the card can still
