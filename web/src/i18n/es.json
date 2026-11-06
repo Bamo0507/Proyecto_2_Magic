@@ -72,6 +72,7 @@
     }
   },
   "objectives": {
+    "tabsLabel": "Tipos de objetivos",
     "generalLabel": "Objetivo general",
     "general": "Encontrar la estrategia de menor costo neto para completar las 303 cartas del set base de MH3 mediante simulación Monte Carlo y parada óptima.",
     "metricLabel": "Métrica principal",
@@ -99,6 +100,72 @@
         ]
       }
     ]
+  },
+  "results": {
+    "tabsLabel": "Partes de los resultados",
+    "tabs": { "comparison": "Comparación", "dispersion": "Dispersión", "improvement": "La mejora", "sensitivity": "Sensibilidad", "answers": "Conclusiones" },
+    "strategyNames": {
+      "comprar_sueltas": "Comprar sueltas",
+      "solo_sobres": "Solo sobres",
+      "solo_cajas": "Solo cajas",
+      "parada_optima": "Parada óptima",
+      "parada_optima_sin_cajas": "Parada sin cajas"
+    },
+    "baseBadge": "Escenario base",
+    "improvedBadge": "Escenario mejorado",
+    "comparison": {
+      "caption": "Costo neto de las cinco estrategias",
+      "strategy": "Estrategia", "mean": "Promedio (USD)", "ci": "IC 95% (USD)", "packs": "Sobres", "boxes": "Cajas",
+      "note": "Menos costo neto es mejor. Las cifras de sobres incluyen los 36 que trae cada caja.",
+      "tie": "Solo cajas y comprar sueltas cuestan prácticamente lo mismo; por eso la mejora se compara con ambas.",
+      "ciExplanation": "El IC 95% estima dónde está el costo promedio real. No indica el costo de una sola corrida: para eso se ve el rango entre mínimo y máximo.",
+      "rangeTemplate": "Rango de una corrida: {min} a {max}"
+    },
+    "dispersion": {
+      "title": "Cada punto es una réplica",
+      "subtitle": "El trazo horizontal marca el promedio; la línea vertical, su IC 95%.",
+      "axis": "Costo neto (USD)",
+      "meanLegend": "Promedio e IC 95%",
+      "replicaLegend": "Réplica",
+      "tableCaption": "Costo neto por réplica y estrategia",
+      "seed": "Semilla",
+      "value": "Costo neto (USD)"
+    },
+    "improvement": {
+      "title": "La parada óptima reduce el costo neto",
+      "against": "frente a comprar sueltas",
+      "ciTemplate": "IC 95%: {low} a {high}",
+      "winTemplate": "Gana en {wins} de cada {total} réplicas",
+      "comparisonTemplate": "Frente a {name}",
+      "paired": "La mejora es pareada: se comparan las estrategias con la misma semilla y se promedian las diferencias. Así comparten la misma suerte al inicio.",
+      "boxesCaveat": "Frente a solo cajas, el intervalo de la mejora es amplio; la regla no gana en todas las réplicas."
+    },
+    "sensitivity": {
+      "title": "La ventaja cambia con los precios",
+      "boxTitle": "Precio de la caja",
+      "commissionTitle": "Comisión de venta",
+      "optimal": "Parada óptima",
+      "baseline": "Mejor sin optimizar",
+      "axis": "Costo neto (USD)",
+      "boxAxis": "Precio de la caja (USD)",
+      "commissionAxis": "Comisión de venta (%)",
+      "resaleZone": "Caja rentable solo por reventa",
+      "tableCaption": "Datos de sensibilidad",
+      "condition": "Condición",
+      "reduction": "Reducción",
+      "undefined": "No definida"
+    },
+    "answers": {
+      "title": "Qué nos dicen los resultados",
+      "what": "¿Qué mejoró?",
+      "whatText": "La parada óptima compra lo que falta cuando abrir más ya no conviene y baja el costo neto frente al escenario base.",
+      "howMuch": "¿Cuánto?",
+      "howMuchTemplate": "La reducción media es {rate} frente a comprar sueltas y {boxesRate} frente a solo cajas, que tienen costos medios casi iguales.",
+      "when": "¿Bajo qué condiciones?",
+      "whenText": "La ventaja baja si sube el precio de la caja. Cuando una caja ya deja ganancia solo por revender, la regla abre hasta completar y empata con solo cajas.",
+      "trust": "¿Qué tan confiable es?",
+      "trustTemplate": "Son {count} réplicas por estrategia con las mismas semillas. El IC 95% de la reducción frente a solo cajas va de {low} a {high}; muestra incertidumbre, no una victoria garantizada."
+    }
   },
   "footer": {
     "fanContent": "Proyecto 2 MH3 is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",

@@ -14,12 +14,12 @@ export function ObjectiveCard({ objective, position }: ObjectiveCardProps) {
   const labels = texts.objectives
 
   return (
-    <li className={cn("flex min-w-0 flex-col rounded-lg bg-card-paper p-3 text-card-ink shadow-card ring-1 ring-card-ink/10 short:p-2", CARD_STYLES_BY_COLOR.blue.suit)}>
+    <li className={cn("flex min-h-44 min-w-0 flex-col rounded-lg bg-card-paper p-4 text-card-ink shadow-card ring-1 ring-card-ink/10 short:min-h-38 short:p-3", CARD_STYLES_BY_COLOR.blue.suit)}>
       <div className="flex items-start gap-2 border-b border-card-suit-ink/25 pb-2 short:pb-1">
-        <span className="nums font-display text-3xl leading-none font-extrabold text-card-suit-ink short:text-2xl" aria-hidden>
+        <span className="nums font-display text-4xl leading-none font-extrabold text-card-suit-ink short:text-3xl" aria-hidden>
           {position}
         </span>
-        <h3 className="font-display text-lg leading-tight font-bold">{objective.title}</h3>
+        <h3 className="font-display text-xl leading-tight font-bold short:text-lg">{objective.title}</h3>
       </div>
       <p className="mt-2 font-sans text-sm leading-snug short:mt-1">
         <span className="font-bold text-card-suit-ink">{labels.measureLabel}: </span>
