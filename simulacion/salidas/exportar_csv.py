@@ -6,7 +6,7 @@
 import csv
 from dataclasses import asdict, fields
 
-from simulacion.motor import Resultado
+from simulacion.modelo.motor import Resultado
 
 CAMPOS_RESULTADO = [campo.name for campo in fields(Resultado) if campo.name != "historial_faltantes"]
 CAMPOS_HISTORIAL = ["estrategia", "semilla", "sobres_abiertos", "cartas_faltantes"]

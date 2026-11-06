@@ -14,7 +14,7 @@ from dataclasses import dataclass
 import numpy as np
 
 from simulacion.estrategias.solo_sobres import SoloSobres
-from simulacion.motor import simular
+from simulacion.modelo.motor import simular
 from simulacion.verificacion.comparacion import error_relativo, intervalo_confianza_media
 
 # Se suman términos hasta que la probabilidad de seguir sin completar el set es menor que esta tolerancia

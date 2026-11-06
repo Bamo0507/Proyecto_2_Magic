@@ -5,7 +5,7 @@ from simulacion.modelo.catalogo import Catalogo
 from simulacion.modelo.coleccion import Coleccion
 from simulacion.modelo.mercado import Mercado
 from simulacion.modelo.probabilidades_sobre import calcular_probabilidades_por_sobre
-from simulacion.motor import simular
+from simulacion.modelo.motor import simular
 from simulacion.semillas import SEMILLA_EJEMPLO
 
 catalogo = Catalogo(CARPETA_SET_ACTIVO)

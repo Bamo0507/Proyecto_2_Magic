@@ -1,0 +1,7 @@
+prueba,casos,fallas
+costo neto igual a sellado más sueltas menos venta,155,0
+gasto en sellado igual a cajas y sobres abiertos,155,0
+solo sobres y solo cajas no compran sueltas,62,0
+comprar sueltas cuesta el set base completo suelto,31,0
+con la caja a precio imposible la parada óptima no abre cajas,31,0
+con todo el sellado a precio imposible la parada óptima es comprar sueltas,31,0

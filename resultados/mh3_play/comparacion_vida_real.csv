@@ -1,0 +1,3 @@
+columna,estrategia,costo_usd,limite_inferior_ic95,limite_superior_ic95,cambio_absoluto_vs_base,cambio_porcentual_vs_base
+modelo_base,solo_cajas,682.8018467741942,607.9976609474685,757.60603260092,0.0,0.0
+modelo_mejorado,parada_optima,557.4036225806453,516.7349063564615,598.0723388048292,-125.39822419354891,-0.18365243853099697

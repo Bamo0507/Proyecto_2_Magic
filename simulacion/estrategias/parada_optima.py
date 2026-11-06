@@ -7,16 +7,23 @@
 # nunca hace que abrir otro producto valga más que antes. Aquí se cumple porque comprar una carta siempre cuesta al
 # menos lo que se recupera al venderla, así que cada carta que se consigue solo puede bajar la ganancia esperada, y una
 # vez que parar es lo mejor, lo sigue siendo en cualquier estado futuro.
+#
+# La monotonía tiene un límite. Si un producto cuesta menos de lo que se espera recuperar al vender todas sus cartas,
+# abrirlo conviene aunque el set ya esté completo, y la regla no pararía nunca. El objetivo es completar el set y no
+# revender sin fin (el mercado tampoco absorbería tantas cartas a su precio), así que con el set completo se para
+# siempre. El precio a partir del cual pasa esto se reporta como precio_umbral.
+#
+# La regla es óptima para decidir cuándo parar. Para elegir entre sobre y caja toma la de mayor ganancia esperada, que
+# es una heurística, porque no toma en cuenta que abrir sobres de a uno deja la opción de parar a medio camino.
 import numpy as np
 
 from simulacion.estrategias.base import Accion
 
 
 class ReglaUnPasoAdelante:
-    nombre = "parada_optima"
-    nombre_legible = "Parada óptima"
-
     def __init__(self, probabilidades, mercado, catalogo, permitir_cajas=True):
+        self.nombre = "parada_optima" if permitir_cajas else "parada_optima_sin_cajas"
+        self.nombre_legible = "Parada óptima" if permitir_cajas else "Parada óptima sin cajas"
         self.productos_por_accion = {Accion.SOBRE: catalogo.sobre}
         if permitir_cajas:
             self.productos_por_accion[Accion.CAJA] = catalogo.caja
@@ -39,6 +46,10 @@ class ReglaUnPasoAdelante:
         )
         return float(venta_set_base + venta_fuera_del_set)
 
+    def precio_umbral(self, producto):
+        # Por debajo de este precio el producto tiene ganancia esperada positiva solo por la reventa de sus cartas
+        return producto.cantidad_sobres * self.venta_esperada_por_sobre
+
     def probabilidad_al_menos_una_copia(self, cantidad_sobres):
         # Como los sobres son independientes, la probabilidad de no ver una carta en ningún sobre es la de no verla en
         # uno, multiplicada por sí misma tantas veces como sobres se abran
@@ -60,5 +71,7 @@ class ReglaUnPasoAdelante:
 
     def decidir(self, coleccion):
         # Si dos opciones empatan gana parar, porque es la primera del diccionario
+        if coleccion.esta_completa:
+            return Accion.PARAR
         ganancias = self.ganancias_esperadas_por_accion(coleccion)
         return max(ganancias, key=ganancias.get)

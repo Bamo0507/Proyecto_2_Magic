@@ -9,8 +9,9 @@
 #   Producto sellado es lo que se compra sin abrir, un sobre suelto o una caja de varios sobres.
 #   Un sobre se arma sacando cartas de varios pozos. Cada pozo agrupa cartas con su probabilidad de salir, y cada
 #   composición de sobre dice cuántas cartas se sacan de cada pozo y qué tan seguido sale esa composición.
+import copy
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
 import numpy as np
 
@@ -119,6 +120,16 @@ class Catalogo:
 
     def precios_del_set_base(self, es_foil):
         return np.array([self.precio(identificador, es_foil) for identificador in self.identificadores_base])
+
+    def con_precios(self, precio_sobre=None, precio_caja=None):
+        # Copia del catálogo con otro precio de sobre o de caja, para la sensibilidad y los casos límite; lo demás se
+        # comparte con el catálogo original
+        copia = copy.copy(self)
+        if precio_sobre is not None:
+            copia.sobre = replace(self.sobre, precio=precio_sobre)
+        if precio_caja is not None:
+            copia.caja = replace(self.caja, precio=precio_caja)
+        return copia
 
     @property
     def cantidad_cartas_base(self):
