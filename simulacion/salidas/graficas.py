@@ -131,10 +131,11 @@ def graficar_costo_por_estrategia(referencia_real):
         )
     if referencia_real is not None:
         eje.axvline(referencia_real.precio_desde_usd, color=COLOR_SERIE_2, linestyle="--", linewidth=1.5)
+        # La etiqueta va abajo, donde la fila de solo sobres deja libre la zona cercana a la línea
         eje.annotate(
-            f"{referencia_real.fuente}, ${referencia_real.precio_desde_usd:,.0f}",
-            (referencia_real.precio_desde_usd, len(resumenes) - 0.5), xytext=(4, 0), textcoords="offset points",
-            color=COLOR_TEXTO_SECUNDARIO, fontsize=8,
+            f"{referencia_real.fuente.split(',')[0]}, ${referencia_real.precio_desde_usd:,.0f}",
+            (referencia_real.precio_desde_usd, 0.02), xycoords=eje.get_xaxis_transform(), xytext=(5, 0),
+            textcoords="offset points", va="bottom", color=COLOR_SERIE_2, fontsize=9, fontweight="bold",
         )
     eje.set_yticks(range(len(resumenes)), [resumen["nombre_legible"] for resumen in resumenes])
     eje.grid(axis="y", visible=False)

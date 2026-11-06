@@ -1,12 +1,12 @@
 {
  "fuente": "Cardmarket, Modern Horizons 3: Full Set",
  "url": "https://www.cardmarket.com/en/Magic/Products/Sets/Modern-Horizons-3-Full-Set",
- "fecha_consulta": null,
+ "fecha_consulta": "2026-11-06",
  "moneda": "EUR",
- "precio_desde": null,
+ "precio_desde": 580.0,
  "precio_tendencia": null,
- "ofertas_disponibles": null,
- "cartas_incluidas": null,
- "tipo_cambio_usd_por_unidad": null,
- "fuente_tipo_cambio": null
+ "ofertas_disponibles": 13,
+ "cartas_incluidas": 319,
+ "tipo_cambio_usd_por_unidad": 1.1165,
+ "fuente_tipo_cambio": "Banco Central Europeo vía api.frankfurter.app, 2026-11-06"
 }
