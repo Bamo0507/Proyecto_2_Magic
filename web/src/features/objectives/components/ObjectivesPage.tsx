@@ -29,10 +29,10 @@ export function ObjectivesPage() {
           label: content.specificLabel,
           content: (
             <div className="m-auto w-full">
-              <h2 className="mb-3 font-display text-xl leading-none font-bold text-foreground">{content.specificLabel}</h2>
-              <ol className="grid gap-3 md:grid-cols-3 short:gap-2">
+              <h2 className="sr-only">{content.specificLabel}</h2>
+              <ol className="grid gap-3 md:grid-cols-3">
                 {content.items.map((objective, index) => (
-                  <ObjectiveCard key={objective.title} objective={objective} position={index + 1} />
+                  <ObjectiveCard key={objective} objective={objective} position={index + 1} />
                 ))}
               </ol>
             </div>

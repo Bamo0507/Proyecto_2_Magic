@@ -68,3 +68,20 @@ export interface ValidationData {
   perCard: PerCardCheck
   consistency: ConsistencyCheck[]
 }
+
+// The few figures of results.json that the conclusions quote; the full shape belongs to the results feature
+export interface StrategyCost {
+  key: string
+  mean: number
+}
+
+export interface StrategyImprovement {
+  reference: string
+  rate: number
+}
+
+export interface ResultsSummary {
+  baselineStrategy: string
+  strategies: StrategyCost[]
+  improvements: StrategyImprovement[]
+}

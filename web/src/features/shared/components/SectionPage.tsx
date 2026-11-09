@@ -22,7 +22,8 @@ const PILE_TEXT_HIDDEN_ON_PHONES = "max-sm:pr-3 max-sm:[&>span:last-child]:sr-on
 interface SectionPageProps {
   sectionKey: SectionKey
   children?: ReactNode
-  // Sections whose field holds a full stage give up the one-screen layout so the field can grow past the viewport
+  // Sections whose field holds a full stage get a fixed tall field; the rest fill what the viewport leaves and only grow
+  // past it (scrolling the page, never the field) when their content needs the room
   tallField?: boolean
 }
 
@@ -41,12 +42,7 @@ export function SectionPage({ sectionKey, children, tallField = false }: Section
   const content = texts.sections[sectionKey]
 
   return (
-    <main
-      className={cn(
-        "relative isolate flex min-h-dvh w-full max-w-full flex-col overflow-x-hidden",
-        tallField ? "md:min-h-dvh" : "md:h-dvh md:min-h-[44rem]"
-      )}
-    >
+    <main className="relative isolate flex min-h-dvh w-full max-w-full flex-col overflow-x-hidden">
       <PlaymatBackground />
       <PlaymatStitch />
       <TopBar />

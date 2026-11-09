@@ -6,7 +6,6 @@ import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 
 import { cn } from "@/lib/utils"
-import { ScoreSheet } from "@/features/shared/components/ScoreSheet"
 import { fillTemplate, formatPercent, formatPrecisePercent } from "@/features/shared/format"
 import { CATEGORY_SWATCH_CLASS } from "@/features/model/packSlots"
 import type { CardCategory, ModelData, RareSlotCategory } from "@/features/model/types/modelData"
@@ -16,7 +15,6 @@ import { texts } from "@/i18n/texts"
 gsap.registerPlugin(useGSAP)
 
 const TICKETS_DRAWN = 100
-const RARITY_ORDER = ["common", "uncommon", "rare", "mythic"] as const
 // The rare slot categories map onto the shared card colors: variants are cards outside the base set
 const RARE_SLOT_CATEGORY: Record<RareSlotCategory["key"], CardCategory> = {
   rara: "rare",
@@ -53,7 +51,7 @@ function PulledCardImage({ source, name }: { source: string | null; name: string
       height={680}
       unoptimized
       onError={() => setFailed(true)}
-      className="card-corners aspect-[488/680] w-20 shrink-0 shadow-card"
+      className="card-corners aspect-[488/680] w-24 shrink-0 shadow-card"
     />
   )
 }
@@ -79,21 +77,12 @@ export function ProbabilityPanel({ model }: ProbabilityPanelProps) {
     { scope: scopeRef }
   )
 
-  const frequencyRows = RARITY_ORDER.filter((rarity) => model.probabilityByRarity[rarity]).map((rarity) => {
-    const stats = model.probabilityByRarity[rarity]
-    return {
-      rarity: texts.cards.rarities[rarity],
-      cards: stats.cards,
-      chance: formatPrecisePercent(stats.probabilityPerPack),
-      every: fillTemplate(labels.everyTemplate, { packs: Math.round(stats.packsPerCopy) }),
-    }
-  })
-
   return (
     <div ref={scopeRef} className="flex min-h-0 flex-1 flex-col gap-4">
       <h2 className={PANEL_HEADING_CLASS_NAME}>{labels.heading}</h2>
 
-      <div className="grid flex-1 items-start gap-8 lg:grid-cols-2 xl:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)]">
+      {/* Read left to right: the pool of tickets, then one ticket pulled from it and its probability */}
+      <div className="grid flex-1 content-center items-center gap-8 lg:grid-cols-[minmax(0,1fr)_auto]">
         <section className="flex flex-col">
           <div className="rounded-[1.25rem] border-2 border-dashed border-playmat-stitch px-4 pt-3 pb-3">
             <h3 className="mb-2 font-sans text-base font-bold text-foreground/80">{labels.raffleTitle}</h3>
@@ -102,7 +91,7 @@ export function ProbabilityPanel({ model }: ProbabilityPanelProps) {
                 <li
                   key={index}
                   data-ticket
-                  className={cn("h-4 rounded-[2px]", CATEGORY_SWATCH_CLASS[RARE_SLOT_CATEGORY[category]])}
+                  className={cn("h-5 rounded-[3px]", CATEGORY_SWATCH_CLASS[RARE_SLOT_CATEGORY[category]])}
                 />
               ))}
             </ol>
@@ -130,44 +119,26 @@ export function ProbabilityPanel({ model }: ProbabilityPanelProps) {
               ))}
             </ul>
           </div>
-          <div data-pulled-ticket className="relative z-10 mt-3 w-fit self-end rotate-2 drop-shadow-xl">
-            <div className="torn-edges flex w-[22rem] items-center gap-4 bg-card-paper px-4 py-4 text-card-ink">
-              <PulledCardImage source={example.image} name={example.name} />
-              <div className="flex min-w-0 flex-col gap-1">
-                <p className="font-sans text-sm font-bold tracking-wide text-card-ink/75 uppercase">{labels.pulledLabel}</p>
-                <p className="font-sans text-base leading-snug">
-                  {fillTemplate(labels.exampleTemplate, { name: example.name, weight: example.weight, total: rareSlot.totalWeight })}
-                </p>
-                <p className="nums font-display text-2xl leading-tight font-extrabold whitespace-nowrap">
-                  {fillTemplate(labels.exampleFormulaTemplate, {
-                    weight: example.weight,
-                    total: rareSlot.totalWeight,
-                    probability: formatPrecisePercent(example.probability),
-                  })}
-                </p>
-              </div>
-            </div>
-          </div>
         </section>
 
-        <section className="flex flex-col gap-4">
-          <ScoreSheet
-            caption={labels.frequencyCaption}
-            columns={[
-              { key: "rarity", label: labels.rarityColumn },
-              { key: "cards", label: labels.cardsColumn, numeric: true },
-              { key: "chance", label: labels.chanceColumn, numeric: true },
-              { key: "every", label: labels.everyColumn, numeric: true, emphasis: true },
-            ]}
-            rows={frequencyRows}
-          />
-          <p className="nums font-sans text-base leading-snug text-foreground/85">
-            {fillTemplate(labels.duplicatesTemplate, {
-              share: formatPercent(model.duplicates.anyFinishShare),
-              normalShare: formatPercent(model.duplicates.bothNormalShare),
-            })}
-          </p>
-        </section>
+        <div data-pulled-ticket className="relative z-10 w-fit justify-self-center rotate-2 drop-shadow-xl">
+          <div className="torn-edges flex w-[26rem] items-center gap-5 bg-card-paper px-5 py-5 text-card-ink">
+            <PulledCardImage source={example.image} name={example.name} />
+            <div className="flex min-w-0 flex-col gap-1">
+              <p className="font-sans text-sm font-bold tracking-wide text-card-ink/75 uppercase">{labels.pulledLabel}</p>
+              <p className="font-sans text-base leading-snug">
+                {fillTemplate(labels.exampleTemplate, { name: example.name, weight: example.weight, total: rareSlot.totalWeight })}
+              </p>
+              <p className="nums font-display text-3xl leading-tight font-extrabold whitespace-nowrap">
+                {fillTemplate(labels.exampleFormulaTemplate, {
+                  weight: example.weight,
+                  total: rareSlot.totalWeight,
+                  probability: formatPrecisePercent(example.probability),
+                })}
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
