@@ -516,5 +516,73 @@
       "heading": "Si hoy ya no conviene abrir, mañana tampoco: la ganancia solo puede bajar.",
       "stopZone": "Aquí se para"
     }
+  },
+  "problem": {
+    "label": "Pregunta de investigación",
+    "questionTemplate": "¿Cuál es la forma más barata de completar las {size} cartas del set base: sobres, cajas, sueltas, o mezclarlas sabiendo cuándo parar?",
+    "curveTitle": "Cartas faltantes según los sobres abiertos",
+    "curveAxis": "Sobres abiertos",
+    "curveYAxis": "Cartas faltantes",
+    "markerTemplate": "{packs} sobres: faltan {missing}",
+    "curveNoteTemplate": "Cada sobre trae {cards} cartas al azar y una mítica concreta sale cada {packs} sobres: las últimas cartas son las más caras.",
+    "packsOnly": "Solo sobres hasta completar",
+    "packsOnlyDetailTemplate": "{packs} sobres: gasta {spent}, recupera {resale} revendiendo",
+    "loose": "Todo suelto",
+    "looseDetail": "Las cartas a precio de mercado",
+    "netLabel": "Costo neto",
+    "takeawayTemplate": "Abrir sobres hasta completar sale {ratio} veces más caro que comprar suelto."
+  },
+  "validation": {
+    "tabsLabel": "Partes de la validación",
+    "tabs": {
+      "real": "Vida real",
+      "verification": "Verificación"
+    },
+    "names": {
+      "referencia_real": "Set completo en Cardmarket",
+      "modelo_base": "Modelo base · solo cajas",
+      "modelo_mejorado": "Parada óptima"
+    },
+    "real": {
+      "headingTemplate": "Un set completo armado cuesta {reference}; el modelo base da {base}.",
+      "chartTitle": "Costo neto contra el precio real, con IC 95%",
+      "axis": "USD",
+      "referenceLegend": "Precio real",
+      "meanLegend": "Media del modelo",
+      "ciLegend": "IC 95%",
+      "insideTemplate": "El precio real cae dentro del IC 95% del modelo base ({low}–{high}).",
+      "outsideTemplate": "El precio real queda fuera del IC 95% del modelo base ({low}–{high}).",
+      "sourceTemplate": "{source}: desde {original} × {rate} = {usd}, al {date}",
+      "openLink": "Abrir en Cardmarket",
+      "limitsTitle": "Límites",
+      "limits": [
+        "Precios de una sola fecha",
+        "Reventa ilimitada a precio de mercado",
+        "Mercado de EE.UU. (TCGplayer)"
+      ]
+    },
+    "verification": {
+      "heading": "El simulador coincide con sus fuentes y sus cuentas cuadran.",
+      "collector": {
+        "title": "Coleccionista de cupones",
+        "valueLabel": "error relativo",
+        "detailTemplate": "Fórmula {formula} sobres, simulación {simulated}"
+      },
+      "rarity": {
+        "title": "Ranura rara",
+        "valueLabel": "error máximo",
+        "detail": "Rara, mítica y variante contra las tasas de Wizards"
+      },
+      "perCard": {
+        "title": "Probabilidad por carta",
+        "valueLabel": "dentro del IC 95%",
+        "detailTemplate": "{cards} cartas, {packs} sobres simulados"
+      },
+      "consistency": {
+        "title": "Consistencia",
+        "valueTemplate": "{failures} fallas",
+        "detailTemplate": "{tests} pruebas, {cases} casos revisados"
+      }
+    }
   }
 }

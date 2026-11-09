@@ -11,7 +11,12 @@
     {
       devShells = paraCadaSistema (pkgs: {
         default = pkgs.mkShell {
-          packages = [ pkgs.python313 ];
+          # Python para la simulación; Node y pnpm para la presentación web en web/
+          packages = [ pkgs.python313 pkgs.nodejs_22 pkgs.pnpm_10 ];
+          # Las ruedas de pip de numpy y matplotlib traen binarios que buscan libstdc++ y libz del sistema; en NixOS
+          # no están en las rutas estándar, así que se les pasan las de Nix
+          LD_LIBRARY_PATH = pkgs.lib.optionalString pkgs.stdenv.isLinux
+            (pkgs.lib.makeLibraryPath [ pkgs.stdenv.cc.cc.lib pkgs.zlib ]);
           # Las versiones exactas de los paquetes de Python salen de requirements.txt, instalados en .venv
           shellHook = ''
             if [ ! -d .venv ]; then
